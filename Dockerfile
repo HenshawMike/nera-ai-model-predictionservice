@@ -31,21 +31,19 @@ RUN mkdir -p uploads cleaned_data \
     && mkdir -p models/model_v1 models/v1
 
 # Copy model files
-COPY models/ ./models/
+COPY model.joblib /app/model.joblib
+
 
 # Verify model files are present
 RUN python setup_models.py
 
-# Set environment variables
+## Set environment variables
 ENV PORT=8000
 ENV ENVIRONMENT=production
 
-# Expose the port the app runs on
+# Expose the port
 EXPOSE $PORT
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:$PORT/health || exit 1
-
-# Run gunicorn with uvicorn worker
-CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "--workers", "4", "--worker-class", "uvicorn.workers.UvicornWorker", "--timeout", "120", "app:app"]
+# Start the FastAPI server
+# Using 'sh -c' ensures $PORT is expanded properly by the shell
+CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port $PORT"]

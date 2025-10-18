@@ -1,0 +1,1704 @@
+2025-09-01 01:13:53,270 - ERROR - Error loading model: Model not found at models\model_v1\model.joblib
+2025-09-01 01:14:29,150 - ERROR - Error loading model: Model not found at models\model_v1\model.joblib
+2025-09-01 01:17:58,111 - ERROR - Error loading model: Model not found at models\model_v1\model.joblib
+2025-09-01 01:48:15,429 - ERROR - Error loading model: Model not found at models\model_v1\model.joblib
+2025-09-01 01:49:25,475 - ERROR - Error loading model: Model not found at models\model_v1\model.joblib
+2025-09-01 01:51:39,288 - ERROR - Prediction error: 'RealEstateDataCleaner' object has no attribute 'clean_data'
+2025-09-01 01:52:09,590 - ERROR - Prediction error: 'RealEstateDataCleaner' object has no attribute 'clean_data'
+2025-09-01 02:19:48,582 - INFO - Starting cleaning for file: uploads\20250901_015136_results (2).csv
+2025-09-01 02:19:48,584 - INFO - Starting data cleaning pipeline
+2025-09-01 02:19:48,602 - INFO - Standardized column names
+2025-09-01 02:19:48,605 - INFO - Loaded 63 records from uploads\20250901_015136_results (2).csv
+2025-09-01 02:19:48,606 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:19:48,620 - INFO - Standardized text fields
+2025-09-01 02:19:48,630 - INFO - Removed 13 duplicate listings
+2025-09-01 02:19:48,636 - INFO - Converted price to numeric format
+2025-09-01 02:19:48,639 - INFO - Standardized property types
+2025-09-01 02:19:48,643 - INFO - Parsed location information
+2025-09-01 02:19:48,659 - INFO - Handled missing values for bedrooms
+2025-09-01 02:19:48,664 - INFO - Handled missing values for bathrooms
+2025-09-01 02:19:48,669 - INFO - Handled missing values for toilets
+2025-09-01 02:19:48,672 - INFO - Validated ranges for price_numeric
+2025-09-01 02:19:48,675 - INFO - Validated ranges for bedrooms
+2025-09-01 02:19:48,677 - INFO - Validated ranges for bathrooms
+2025-09-01 02:19:48,680 - INFO - Validated ranges for toilets
+2025-09-01 02:19:48,690 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_015136_results (2).csv
+2025-09-01 02:19:48,691 - INFO - Data cleaning completed successfully
+2025-09-01 02:19:48,691 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_015136_results (2).csv
+2025-09-01 02:19:48,698 - INFO - Generating predictions...
+2025-09-01 02:19:48,712 - ERROR - Prediction error: The number of features in data (3) is not the same as it was in training data (514).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+2025-09-01 02:20:01,527 - INFO - Starting cleaning for file: uploads\20250901_015136_results (2).csv
+2025-09-01 02:20:01,527 - INFO - Starting data cleaning pipeline
+2025-09-01 02:20:01,532 - INFO - Standardized column names
+2025-09-01 02:20:01,535 - INFO - Loaded 63 records from uploads\20250901_015136_results (2).csv
+2025-09-01 02:20:01,535 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:20:01,540 - INFO - Standardized text fields
+2025-09-01 02:20:01,543 - INFO - Removed 13 duplicate listings
+2025-09-01 02:20:01,547 - INFO - Converted price to numeric format
+2025-09-01 02:20:01,550 - INFO - Standardized property types
+2025-09-01 02:20:01,553 - INFO - Parsed location information
+2025-09-01 02:20:01,558 - INFO - Handled missing values for bedrooms
+2025-09-01 02:20:01,564 - INFO - Handled missing values for bathrooms
+2025-09-01 02:20:01,568 - INFO - Handled missing values for toilets
+2025-09-01 02:20:01,571 - INFO - Validated ranges for price_numeric
+2025-09-01 02:20:01,573 - INFO - Validated ranges for bedrooms
+2025-09-01 02:20:01,577 - INFO - Validated ranges for bathrooms
+2025-09-01 02:20:01,579 - INFO - Validated ranges for toilets
+2025-09-01 02:20:01,586 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_015136_results (2).csv
+2025-09-01 02:20:01,587 - INFO - Data cleaning completed successfully
+2025-09-01 02:20:01,587 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_015136_results (2).csv
+2025-09-01 02:20:01,594 - INFO - Generating predictions...
+2025-09-01 02:20:01,597 - ERROR - Prediction error: The number of features in data (3) is not the same as it was in training data (514).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+2025-09-01 02:20:07,341 - INFO - Starting cleaning for file: uploads\20250901_015136_results (2).csv
+2025-09-01 02:20:07,341 - INFO - Starting data cleaning pipeline
+2025-09-01 02:20:07,344 - INFO - Standardized column names
+2025-09-01 02:20:07,346 - INFO - Loaded 63 records from uploads\20250901_015136_results (2).csv
+2025-09-01 02:20:07,346 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:20:07,351 - INFO - Standardized text fields
+2025-09-01 02:20:07,354 - INFO - Removed 13 duplicate listings
+2025-09-01 02:20:07,356 - INFO - Converted price to numeric format
+2025-09-01 02:20:07,359 - INFO - Standardized property types
+2025-09-01 02:20:07,364 - INFO - Parsed location information
+2025-09-01 02:20:07,369 - INFO - Handled missing values for bedrooms
+2025-09-01 02:20:07,373 - INFO - Handled missing values for bathrooms
+2025-09-01 02:20:07,376 - INFO - Handled missing values for toilets
+2025-09-01 02:20:07,379 - INFO - Validated ranges for price_numeric
+2025-09-01 02:20:07,382 - INFO - Validated ranges for bedrooms
+2025-09-01 02:20:07,386 - INFO - Validated ranges for bathrooms
+2025-09-01 02:20:07,388 - INFO - Validated ranges for toilets
+2025-09-01 02:20:07,391 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_015136_results (2).csv
+2025-09-01 02:20:07,392 - INFO - Data cleaning completed successfully
+2025-09-01 02:20:07,392 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_015136_results (2).csv
+2025-09-01 02:20:07,399 - INFO - Generating predictions...
+2025-09-01 02:20:07,401 - ERROR - Prediction error: The number of features in data (3) is not the same as it was in training data (514).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+2025-09-01 02:44:59,859 - INFO - Starting cleaning for file: uploads\20250901_024427_results (2).csv
+2025-09-01 02:44:59,862 - INFO - Starting data cleaning pipeline
+2025-09-01 02:44:59,879 - INFO - Standardized column names
+2025-09-01 02:44:59,883 - INFO - Loaded 63 records from uploads\20250901_024427_results (2).csv
+2025-09-01 02:44:59,883 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:44:59,911 - INFO - Standardized text fields
+2025-09-01 02:44:59,934 - INFO - Removed 13 duplicate listings
+2025-09-01 02:44:59,946 - INFO - Converted price to numeric format
+2025-09-01 02:44:59,951 - INFO - Standardized property types
+2025-09-01 02:44:59,977 - INFO - Parsed location information
+2025-09-01 02:45:00,017 - INFO - Handled missing values for bedrooms
+2025-09-01 02:45:00,059 - INFO - Handled missing values for bathrooms
+2025-09-01 02:45:00,083 - INFO - Handled missing values for toilets
+2025-09-01 02:45:00,100 - INFO - Validated ranges for price_numeric
+2025-09-01 02:45:00,115 - INFO - Validated ranges for bedrooms
+2025-09-01 02:45:00,128 - INFO - Validated ranges for bathrooms
+2025-09-01 02:45:00,144 - INFO - Validated ranges for toilets
+2025-09-01 02:45:00,179 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:00,180 - INFO - Data cleaning completed successfully
+2025-09-01 02:45:00,181 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:00,197 - INFO - Preparing features for prediction...
+2025-09-01 02:45:00,253 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 02:45:00,266 - ERROR - Prediction error: Unexpected input dimension 14, expected 3
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 87, in predict
+    features = self._prepare_features(df_cleaned)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 158, in _prepare_features
+    X_other_encoded = self.preprocessor.encoder.transform(X_other_features)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 622, in transform
+    self._check_transform_inputs(X)
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 514, in _check_transform_inputs
+    raise ValueError(f'Unexpected input dimension {df.shape[1]}, expected {self._dim}')
+ValueError: Unexpected input dimension 14, expected 3
+2025-09-01 02:45:20,066 - INFO - Starting cleaning for file: uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:20,075 - INFO - Starting data cleaning pipeline
+2025-09-01 02:45:20,087 - INFO - Standardized column names
+2025-09-01 02:45:20,095 - INFO - Loaded 63 records from uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:20,099 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:45:20,114 - INFO - Standardized text fields
+2025-09-01 02:45:20,123 - INFO - Removed 13 duplicate listings
+2025-09-01 02:45:20,127 - INFO - Converted price to numeric format
+2025-09-01 02:45:20,132 - INFO - Standardized property types
+2025-09-01 02:45:20,146 - INFO - Parsed location information
+2025-09-01 02:45:20,161 - INFO - Handled missing values for bedrooms
+2025-09-01 02:45:20,177 - INFO - Handled missing values for bathrooms
+2025-09-01 02:45:20,195 - INFO - Handled missing values for toilets
+2025-09-01 02:45:20,211 - INFO - Validated ranges for price_numeric
+2025-09-01 02:45:20,225 - INFO - Validated ranges for bedrooms
+2025-09-01 02:45:20,233 - INFO - Validated ranges for bathrooms
+2025-09-01 02:45:20,247 - INFO - Validated ranges for toilets
+2025-09-01 02:45:20,263 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:20,266 - INFO - Data cleaning completed successfully
+2025-09-01 02:45:20,268 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:20,280 - INFO - Preparing features for prediction...
+2025-09-01 02:45:20,331 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 02:45:20,348 - ERROR - Prediction error: Unexpected input dimension 14, expected 3
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 87, in predict
+    features = self._prepare_features(df_cleaned)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 158, in _prepare_features
+    X_other_encoded = self.preprocessor.encoder.transform(X_other_features)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 622, in transform
+    self._check_transform_inputs(X)
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 514, in _check_transform_inputs
+    raise ValueError(f'Unexpected input dimension {df.shape[1]}, expected {self._dim}')
+ValueError: Unexpected input dimension 14, expected 3
+2025-09-01 02:45:32,856 - INFO - Starting cleaning for file: uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:32,857 - INFO - Starting data cleaning pipeline
+2025-09-01 02:45:32,860 - INFO - Standardized column names
+2025-09-01 02:45:32,862 - INFO - Loaded 63 records from uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:32,863 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:45:32,874 - INFO - Standardized text fields
+2025-09-01 02:45:32,878 - INFO - Removed 13 duplicate listings
+2025-09-01 02:45:32,886 - INFO - Converted price to numeric format
+2025-09-01 02:45:32,888 - INFO - Standardized property types
+2025-09-01 02:45:32,891 - INFO - Parsed location information
+2025-09-01 02:45:32,897 - INFO - Handled missing values for bedrooms
+2025-09-01 02:45:32,908 - INFO - Handled missing values for bathrooms
+2025-09-01 02:45:32,912 - INFO - Handled missing values for toilets
+2025-09-01 02:45:32,920 - INFO - Validated ranges for price_numeric
+2025-09-01 02:45:32,923 - INFO - Validated ranges for bedrooms
+2025-09-01 02:45:32,925 - INFO - Validated ranges for bathrooms
+2025-09-01 02:45:32,929 - INFO - Validated ranges for toilets
+2025-09-01 02:45:32,941 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:32,941 - INFO - Data cleaning completed successfully
+2025-09-01 02:45:32,941 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:32,945 - INFO - Preparing features for prediction...
+2025-09-01 02:45:32,973 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 02:45:32,975 - ERROR - Prediction error: Unexpected input dimension 14, expected 3
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 87, in predict
+    features = self._prepare_features(df_cleaned)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 158, in _prepare_features
+    X_other_encoded = self.preprocessor.encoder.transform(X_other_features)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 622, in transform
+    self._check_transform_inputs(X)
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 514, in _check_transform_inputs
+    raise ValueError(f'Unexpected input dimension {df.shape[1]}, expected {self._dim}')
+ValueError: Unexpected input dimension 14, expected 3
+2025-09-01 02:45:43,639 - INFO - Starting cleaning for file: uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:43,640 - INFO - Starting data cleaning pipeline
+2025-09-01 02:45:43,644 - INFO - Standardized column names
+2025-09-01 02:45:43,648 - INFO - Loaded 63 records from uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:43,649 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:45:43,653 - INFO - Standardized text fields
+2025-09-01 02:45:43,655 - INFO - Removed 13 duplicate listings
+2025-09-01 02:45:43,658 - INFO - Converted price to numeric format
+2025-09-01 02:45:43,668 - INFO - Standardized property types
+2025-09-01 02:45:43,674 - INFO - Parsed location information
+2025-09-01 02:45:43,685 - INFO - Handled missing values for bedrooms
+2025-09-01 02:45:43,689 - INFO - Handled missing values for bathrooms
+2025-09-01 02:45:43,692 - INFO - Handled missing values for toilets
+2025-09-01 02:45:43,697 - INFO - Validated ranges for price_numeric
+2025-09-01 02:45:43,705 - INFO - Validated ranges for bedrooms
+2025-09-01 02:45:43,707 - INFO - Validated ranges for bathrooms
+2025-09-01 02:45:43,709 - INFO - Validated ranges for toilets
+2025-09-01 02:45:43,720 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:43,720 - INFO - Data cleaning completed successfully
+2025-09-01 02:45:43,721 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:43,724 - INFO - Preparing features for prediction...
+2025-09-01 02:45:43,750 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 02:45:43,752 - ERROR - Prediction error: Unexpected input dimension 14, expected 3
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 87, in predict
+    features = self._prepare_features(df_cleaned)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 158, in _prepare_features
+    X_other_encoded = self.preprocessor.encoder.transform(X_other_features)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 622, in transform
+    self._check_transform_inputs(X)
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 514, in _check_transform_inputs
+    raise ValueError(f'Unexpected input dimension {df.shape[1]}, expected {self._dim}')
+ValueError: Unexpected input dimension 14, expected 3
+2025-09-01 02:45:51,290 - INFO - Starting cleaning for file: uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:51,292 - INFO - Starting data cleaning pipeline
+2025-09-01 02:45:51,306 - INFO - Standardized column names
+2025-09-01 02:45:51,316 - INFO - Loaded 63 records from uploads\20250901_024427_results (2).csv
+2025-09-01 02:45:51,320 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 02:45:51,332 - INFO - Standardized text fields
+2025-09-01 02:45:51,344 - INFO - Removed 13 duplicate listings
+2025-09-01 02:45:51,357 - INFO - Converted price to numeric format
+2025-09-01 02:45:51,374 - INFO - Standardized property types
+2025-09-01 02:45:51,391 - INFO - Parsed location information
+2025-09-01 02:45:51,417 - INFO - Handled missing values for bedrooms
+2025-09-01 02:45:51,436 - INFO - Handled missing values for bathrooms
+2025-09-01 02:45:51,452 - INFO - Handled missing values for toilets
+2025-09-01 02:45:51,455 - INFO - Validated ranges for price_numeric
+2025-09-01 02:45:51,462 - INFO - Validated ranges for bedrooms
+2025-09-01 02:45:51,471 - INFO - Validated ranges for bathrooms
+2025-09-01 02:45:51,475 - INFO - Validated ranges for toilets
+2025-09-01 02:45:51,486 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:51,487 - INFO - Data cleaning completed successfully
+2025-09-01 02:45:51,487 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_024427_results (2).csv
+2025-09-01 02:45:51,495 - INFO - Preparing features for prediction...
+2025-09-01 02:45:51,535 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 02:45:51,539 - ERROR - Prediction error: Unexpected input dimension 14, expected 3
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 87, in predict
+    features = self._prepare_features(df_cleaned)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 158, in _prepare_features
+    X_other_encoded = self.preprocessor.encoder.transform(X_other_features)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 622, in transform
+    self._check_transform_inputs(X)
+  File "C:\Users\USER\Documents\Galaxy\.venv\Lib\site-packages\category_encoders\utils.py", line 514, in _check_transform_inputs
+    raise ValueError(f'Unexpected input dimension {df.shape[1]}, expected {self._dim}')
+ValueError: Unexpected input dimension 14, expected 3
+2025-09-01 09:49:03,432 - INFO - Starting cleaning for file: uploads\20250901_094859_results (2).csv
+2025-09-01 09:49:03,434 - INFO - Starting data cleaning pipeline
+2025-09-01 09:49:03,437 - INFO - Standardized column names
+2025-09-01 09:49:03,438 - INFO - Loaded 63 records from uploads\20250901_094859_results (2).csv
+2025-09-01 09:49:03,439 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 09:49:03,445 - INFO - Standardized text fields
+2025-09-01 09:49:03,454 - INFO - Removed 13 duplicate listings
+2025-09-01 09:49:03,458 - INFO - Converted price to numeric format
+2025-09-01 09:49:03,460 - INFO - Standardized property types
+2025-09-01 09:49:03,464 - INFO - Parsed location information
+2025-09-01 09:49:03,478 - INFO - Handled missing values for bedrooms
+2025-09-01 09:49:03,484 - INFO - Handled missing values for bathrooms
+2025-09-01 09:49:03,487 - INFO - Handled missing values for toilets
+2025-09-01 09:49:03,489 - INFO - Validated ranges for price_numeric
+2025-09-01 09:49:03,493 - INFO - Validated ranges for bedrooms
+2025-09-01 09:49:03,495 - INFO - Validated ranges for bathrooms
+2025-09-01 09:49:03,499 - INFO - Validated ranges for toilets
+2025-09-01 09:49:03,508 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 09:49:03,509 - INFO - Data cleaning completed successfully
+2025-09-01 09:49:03,509 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 09:49:03,512 - INFO - Preparing features for prediction...
+2025-09-01 09:49:03,525 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 09:49:03,527 - ERROR - Prediction error: Unexpected input dimension 14, expected 3
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 87, in predict
+    features = self._prepare_features(df_cleaned)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 158, in _prepare_features
+    X_other_encoded = self.preprocessor.encoder.transform(X_other_features)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\category_encoders\utils.py", line 622, in transform
+    self._check_transform_inputs(X)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\category_encoders\utils.py", line 514, in _check_transform_inputs
+    raise ValueError(f'Unexpected input dimension {df.shape[1]}, expected {self._dim}')
+ValueError: Unexpected input dimension 14, expected 3
+2025-09-01 10:09:22,330 - INFO - Starting cleaning for file: uploads\20250901_094859_results (2).csv
+2025-09-01 10:09:22,330 - INFO - Starting data cleaning pipeline
+2025-09-01 10:09:22,343 - INFO - Standardized column names
+2025-09-01 10:09:22,346 - INFO - Loaded 63 records from uploads\20250901_094859_results (2).csv
+2025-09-01 10:09:22,346 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 10:09:22,357 - INFO - Standardized text fields
+2025-09-01 10:09:22,369 - INFO - Removed 13 duplicate listings
+2025-09-01 10:09:22,374 - INFO - Converted price to numeric format
+2025-09-01 10:09:22,376 - INFO - Standardized property types
+2025-09-01 10:09:22,378 - INFO - Parsed location information
+2025-09-01 10:09:22,400 - INFO - Handled missing values for bedrooms
+2025-09-01 10:09:22,403 - INFO - Handled missing values for bathrooms
+2025-09-01 10:09:22,407 - INFO - Handled missing values for toilets
+2025-09-01 10:09:22,410 - INFO - Validated ranges for price_numeric
+2025-09-01 10:09:22,413 - INFO - Validated ranges for bedrooms
+2025-09-01 10:09:22,414 - INFO - Validated ranges for bathrooms
+2025-09-01 10:09:22,416 - INFO - Validated ranges for toilets
+2025-09-01 10:09:22,426 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 10:09:22,426 - INFO - Data cleaning completed successfully
+2025-09-01 10:09:22,426 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 10:09:22,430 - INFO - Preparing features for prediction...
+2025-09-01 10:09:22,442 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 10:09:22,444 - INFO - Transforming 3 categorical features...
+2025-09-01 10:09:22,452 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 10:09:22,464 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-01 10:09:22,465 - INFO - Generating predictions...
+2025-09-01 10:09:22,470 - INFO - Predictions generated.
+2025-09-01 10:09:22,472 - ERROR - Prediction error: sequence item 1: expected str instance, float found
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 96, in predict
+    results = self._format_results(df_for_results, predictions)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 194, in _format_results
+    location = ', '.join(filter(None, location_parts))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 1: expected str instance, float found
+2025-09-01 10:09:31,902 - INFO - Starting cleaning for file: uploads\20250901_094859_results (2).csv
+2025-09-01 10:09:31,903 - INFO - Starting data cleaning pipeline
+2025-09-01 10:09:31,905 - INFO - Standardized column names
+2025-09-01 10:09:31,906 - INFO - Loaded 63 records from uploads\20250901_094859_results (2).csv
+2025-09-01 10:09:31,906 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 10:09:31,908 - INFO - Standardized text fields
+2025-09-01 10:09:31,909 - INFO - Removed 13 duplicate listings
+2025-09-01 10:09:31,910 - INFO - Converted price to numeric format
+2025-09-01 10:09:31,912 - INFO - Standardized property types
+2025-09-01 10:09:31,914 - INFO - Parsed location information
+2025-09-01 10:09:31,920 - INFO - Handled missing values for bedrooms
+2025-09-01 10:09:31,926 - INFO - Handled missing values for bathrooms
+2025-09-01 10:09:31,929 - INFO - Handled missing values for toilets
+2025-09-01 10:09:31,930 - INFO - Validated ranges for price_numeric
+2025-09-01 10:09:31,932 - INFO - Validated ranges for bedrooms
+2025-09-01 10:09:31,933 - INFO - Validated ranges for bathrooms
+2025-09-01 10:09:31,934 - INFO - Validated ranges for toilets
+2025-09-01 10:09:31,939 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 10:09:31,940 - INFO - Data cleaning completed successfully
+2025-09-01 10:09:31,940 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 10:09:31,942 - INFO - Preparing features for prediction...
+2025-09-01 10:09:31,955 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 10:09:31,956 - INFO - Transforming 3 categorical features...
+2025-09-01 10:09:31,961 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 10:09:31,963 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-01 10:09:31,965 - INFO - Generating predictions...
+2025-09-01 10:09:31,966 - INFO - Predictions generated.
+2025-09-01 10:09:31,967 - ERROR - Prediction error: sequence item 1: expected str instance, float found
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 96, in predict
+    results = self._format_results(df_for_results, predictions)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 194, in _format_results
+    location = ', '.join(filter(None, location_parts))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 1: expected str instance, float found
+2025-09-01 10:16:05,554 - INFO - Starting cleaning for file: uploads\20250901_094859_results (2).csv
+2025-09-01 10:16:05,555 - INFO - Starting data cleaning pipeline
+2025-09-01 10:16:05,565 - INFO - Standardized column names
+2025-09-01 10:16:05,567 - INFO - Loaded 63 records from uploads\20250901_094859_results (2).csv
+2025-09-01 10:16:05,568 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 10:16:05,572 - INFO - Standardized text fields
+2025-09-01 10:16:05,578 - INFO - Removed 13 duplicate listings
+2025-09-01 10:16:05,582 - INFO - Converted price to numeric format
+2025-09-01 10:16:05,584 - INFO - Standardized property types
+2025-09-01 10:16:05,593 - INFO - Parsed location information
+2025-09-01 10:16:05,602 - INFO - Handled missing values for bedrooms
+2025-09-01 10:16:05,612 - INFO - Handled missing values for bathrooms
+2025-09-01 10:16:05,618 - INFO - Handled missing values for toilets
+2025-09-01 10:16:05,621 - INFO - Validated ranges for price_numeric
+2025-09-01 10:16:05,628 - INFO - Validated ranges for bedrooms
+2025-09-01 10:16:05,630 - INFO - Validated ranges for bathrooms
+2025-09-01 10:16:05,632 - INFO - Validated ranges for toilets
+2025-09-01 10:16:05,638 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 10:16:05,639 - INFO - Data cleaning completed successfully
+2025-09-01 10:16:05,639 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_094859_results (2).csv
+2025-09-01 10:16:05,648 - INFO - Preparing features for prediction...
+2025-09-01 10:16:05,665 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 10:16:05,670 - INFO - Transforming 3 categorical features...
+2025-09-01 10:16:05,687 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 10:16:05,695 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-01 10:16:05,696 - INFO - Generating predictions...
+2025-09-01 10:16:05,697 - INFO - Predictions generated.
+2025-09-01 14:06:37,003 - INFO - Starting cleaning for file: uploads\20250901_140634_results (2).csv
+2025-09-01 14:06:37,005 - INFO - Starting data cleaning pipeline
+2025-09-01 14:06:37,008 - INFO - Standardized column names
+2025-09-01 14:06:37,009 - INFO - Loaded 63 records from uploads\20250901_140634_results (2).csv
+2025-09-01 14:06:37,010 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-01 14:06:37,019 - INFO - Standardized text fields
+2025-09-01 14:06:37,030 - INFO - Removed 13 duplicate listings
+2025-09-01 14:06:37,038 - INFO - Converted price to numeric format
+2025-09-01 14:06:37,040 - INFO - Standardized property types
+2025-09-01 14:06:37,043 - INFO - Parsed location information
+2025-09-01 14:06:37,063 - INFO - Handled missing values for bedrooms
+2025-09-01 14:06:37,071 - INFO - Handled missing values for bathrooms
+2025-09-01 14:06:37,074 - INFO - Handled missing values for toilets
+2025-09-01 14:06:37,076 - INFO - Validated ranges for price_numeric
+2025-09-01 14:06:37,078 - INFO - Validated ranges for bedrooms
+2025-09-01 14:06:37,080 - INFO - Validated ranges for bathrooms
+2025-09-01 14:06:37,081 - INFO - Validated ranges for toilets
+2025-09-01 14:06:37,090 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_140634_results (2).csv
+2025-09-01 14:06:37,090 - INFO - Data cleaning completed successfully
+2025-09-01 14:06:37,091 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_140634_results (2).csv
+2025-09-01 14:06:37,093 - INFO - Preparing features for prediction...
+2025-09-01 14:06:37,106 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 14:06:37,108 - INFO - Transforming 3 categorical features...
+2025-09-01 14:06:37,119 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 14:06:37,136 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-01 14:06:37,137 - INFO - Generating predictions...
+2025-09-01 14:06:37,144 - INFO - Predictions generated.
+2025-09-01 14:21:48,405 - INFO - Starting cleaning for file: uploads\20250901_142125_a_cleaned.csv
+2025-09-01 14:21:48,417 - INFO - Starting data cleaning pipeline
+2025-09-01 14:21:48,430 - INFO - Standardized column names
+2025-09-01 14:21:48,443 - INFO - Loaded 454 records from uploads\20250901_142125_a_cleaned.csv
+2025-09-01 14:21:48,444 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-01 14:21:48,466 - INFO - Standardized text fields
+2025-09-01 14:21:48,492 - INFO - Removed 18 duplicate listings
+2025-09-01 14:21:48,502 - INFO - Converted price to numeric format
+2025-09-01 14:21:48,507 - INFO - Standardized property types
+2025-09-01 14:21:48,523 - INFO - Parsed location information
+2025-09-01 14:21:48,575 - INFO - Handled missing values for bedrooms
+2025-09-01 14:21:48,581 - INFO - Handled missing values for bathrooms
+2025-09-01 14:21:48,585 - INFO - Handled missing values for toilets
+2025-09-01 14:21:48,590 - INFO - Validated ranges for price_numeric
+2025-09-01 14:21:48,596 - INFO - Validated ranges for bedrooms
+2025-09-01 14:21:48,598 - INFO - Validated ranges for bathrooms
+2025-09-01 14:21:48,599 - INFO - Validated ranges for toilets
+2025-09-01 14:21:48,626 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_142125_a_cleaned.csv
+2025-09-01 14:21:48,626 - INFO - Data cleaning completed successfully
+2025-09-01 14:21:48,626 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_142125_a_cleaned.csv
+2025-09-01 14:21:48,630 - INFO - Preparing features for prediction...
+2025-09-01 14:21:48,653 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 14:21:48,657 - INFO - Transforming 3 categorical features...
+2025-09-01 14:21:48,685 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 14:21:48,749 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-01 14:21:48,749 - INFO - Generating predictions...
+2025-09-01 14:21:48,785 - INFO - Predictions generated.
+2025-09-01 14:24:25,327 - INFO - Starting cleaning for file: uploads\20250901_142125_a_cleaned.csv
+2025-09-01 14:24:25,330 - INFO - Starting data cleaning pipeline
+2025-09-01 14:24:25,338 - INFO - Standardized column names
+2025-09-01 14:24:25,345 - INFO - Loaded 454 records from uploads\20250901_142125_a_cleaned.csv
+2025-09-01 14:24:25,346 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-01 14:24:25,348 - INFO - Standardized text fields
+2025-09-01 14:24:25,352 - INFO - Removed 18 duplicate listings
+2025-09-01 14:24:25,363 - INFO - Converted price to numeric format
+2025-09-01 14:24:25,367 - INFO - Standardized property types
+2025-09-01 14:24:25,384 - INFO - Parsed location information
+2025-09-01 14:24:25,418 - INFO - Handled missing values for bedrooms
+2025-09-01 14:24:25,450 - INFO - Handled missing values for bathrooms
+2025-09-01 14:24:25,467 - INFO - Handled missing values for toilets
+2025-09-01 14:24:25,468 - INFO - Validated ranges for price_numeric
+2025-09-01 14:24:25,470 - INFO - Validated ranges for bedrooms
+2025-09-01 14:24:25,472 - INFO - Validated ranges for bathrooms
+2025-09-01 14:24:25,481 - INFO - Validated ranges for toilets
+2025-09-01 14:24:25,501 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_142125_a_cleaned.csv
+2025-09-01 14:24:25,502 - INFO - Data cleaning completed successfully
+2025-09-01 14:24:25,503 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_142125_a_cleaned.csv
+2025-09-01 14:24:25,521 - INFO - Preparing features for prediction...
+2025-09-01 14:24:25,569 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 14:24:25,581 - INFO - Transforming 3 categorical features...
+2025-09-01 14:24:25,588 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 14:24:25,613 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-01 14:24:25,613 - INFO - Generating predictions...
+2025-09-01 14:24:25,615 - INFO - Predictions generated.
+2025-09-01 14:39:25,511 - INFO - Starting cleaning for file: uploads\20250901_143914_s_cleaned.csv
+2025-09-01 14:39:25,514 - INFO - Starting data cleaning pipeline
+2025-09-01 14:39:25,526 - INFO - Standardized column names
+2025-09-01 14:39:25,541 - INFO - Loaded 685 records from uploads\20250901_143914_s_cleaned.csv
+2025-09-01 14:39:25,542 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-01 14:39:25,552 - INFO - Standardized text fields
+2025-09-01 14:39:25,562 - INFO - Removed 4 duplicate listings
+2025-09-01 14:39:25,572 - INFO - Converted price to numeric format
+2025-09-01 14:39:25,575 - INFO - Standardized property types
+2025-09-01 14:39:25,586 - INFO - Parsed location information
+2025-09-01 14:39:25,704 - INFO - Handled missing values for bedrooms
+2025-09-01 14:39:25,710 - INFO - Handled missing values for bathrooms
+2025-09-01 14:39:25,717 - INFO - Handled missing values for toilets
+2025-09-01 14:39:25,719 - INFO - Validated ranges for price_numeric
+2025-09-01 14:39:25,723 - INFO - Validated ranges for bedrooms
+2025-09-01 14:39:25,725 - INFO - Validated ranges for bathrooms
+2025-09-01 14:39:25,727 - INFO - Validated ranges for toilets
+2025-09-01 14:39:25,741 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_143914_s_cleaned.csv
+2025-09-01 14:39:25,742 - INFO - Data cleaning completed successfully
+2025-09-01 14:39:25,742 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_143914_s_cleaned.csv
+2025-09-01 14:39:25,749 - INFO - Preparing features for prediction...
+2025-09-01 14:39:25,768 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 14:39:25,771 - INFO - Transforming 3 categorical features...
+2025-09-01 14:39:25,783 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 14:39:25,816 - INFO - Feature preparation complete. Shape: (681, 514)
+2025-09-01 14:39:25,817 - INFO - Generating predictions...
+2025-09-01 14:39:25,837 - INFO - Predictions generated.
+2025-09-01 14:52:41,935 - INFO - Starting cleaning for file: uploads\20250901_145238_a_cleaned.csv
+2025-09-01 14:52:41,956 - INFO - Starting data cleaning pipeline
+2025-09-01 14:52:41,975 - INFO - Standardized column names
+2025-09-01 14:52:42,005 - INFO - Loaded 454 records from uploads\20250901_145238_a_cleaned.csv
+2025-09-01 14:52:42,006 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-01 14:52:42,039 - INFO - Standardized text fields
+2025-09-01 14:52:42,074 - INFO - Removed 18 duplicate listings
+2025-09-01 14:52:42,102 - INFO - Converted price to numeric format
+2025-09-01 14:52:42,109 - INFO - Standardized property types
+2025-09-01 14:52:42,155 - INFO - Parsed location information
+2025-09-01 14:52:42,235 - INFO - Handled missing values for bedrooms
+2025-09-01 14:52:42,255 - INFO - Handled missing values for bathrooms
+2025-09-01 14:52:42,270 - INFO - Handled missing values for toilets
+2025-09-01 14:52:42,284 - INFO - Validated ranges for price_numeric
+2025-09-01 14:52:42,298 - INFO - Validated ranges for bedrooms
+2025-09-01 14:52:42,320 - INFO - Validated ranges for bathrooms
+2025-09-01 14:52:42,323 - INFO - Validated ranges for toilets
+2025-09-01 14:52:42,416 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_145238_a_cleaned.csv
+2025-09-01 14:52:42,421 - INFO - Data cleaning completed successfully
+2025-09-01 14:52:42,423 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_145238_a_cleaned.csv
+2025-09-01 14:52:42,452 - INFO - Preparing features for prediction...
+2025-09-01 14:52:42,541 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 14:52:42,550 - INFO - Transforming 3 categorical features...
+2025-09-01 14:52:42,603 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 14:52:42,721 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-01 14:52:42,721 - INFO - Generating predictions...
+2025-09-01 14:52:42,884 - INFO - Predictions generated.
+2025-09-01 15:22:16,453 - INFO - Starting cleaning for file: uploads\20250901_152211_a_cleaned.csv
+2025-09-01 15:22:16,459 - INFO - Starting data cleaning pipeline
+2025-09-01 15:22:16,475 - INFO - Standardized column names
+2025-09-01 15:22:16,487 - INFO - Loaded 454 records from uploads\20250901_152211_a_cleaned.csv
+2025-09-01 15:22:16,488 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-01 15:22:16,501 - INFO - Standardized text fields
+2025-09-01 15:22:16,519 - INFO - Removed 18 duplicate listings
+2025-09-01 15:22:16,527 - INFO - Converted price to numeric format
+2025-09-01 15:22:16,535 - INFO - Standardized property types
+2025-09-01 15:22:16,543 - INFO - Parsed location information
+2025-09-01 15:22:16,586 - INFO - Handled missing values for bedrooms
+2025-09-01 15:22:16,591 - INFO - Handled missing values for bathrooms
+2025-09-01 15:22:16,600 - INFO - Handled missing values for toilets
+2025-09-01 15:22:16,603 - INFO - Validated ranges for price_numeric
+2025-09-01 15:22:16,609 - INFO - Validated ranges for bedrooms
+2025-09-01 15:22:16,617 - INFO - Validated ranges for bathrooms
+2025-09-01 15:22:16,620 - INFO - Validated ranges for toilets
+2025-09-01 15:22:16,644 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_152211_a_cleaned.csv
+2025-09-01 15:22:16,645 - INFO - Data cleaning completed successfully
+2025-09-01 15:22:16,648 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_152211_a_cleaned.csv
+2025-09-01 15:22:16,656 - INFO - Preparing features for prediction...
+2025-09-01 15:22:16,675 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 15:22:16,682 - INFO - Transforming 3 categorical features...
+2025-09-01 15:22:16,706 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 15:22:16,786 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-01 15:22:16,787 - INFO - Generating predictions...
+2025-09-01 15:22:16,857 - INFO - Predictions generated.
+2025-09-01 15:24:49,257 - INFO - Starting cleaning for file: uploads\20250901_152443_h_cleaned.csv
+2025-09-01 15:24:49,257 - INFO - Starting data cleaning pipeline
+2025-09-01 15:24:49,268 - INFO - Standardized column names
+2025-09-01 15:24:49,290 - INFO - Loaded 1741 records from uploads\20250901_152443_h_cleaned.csv
+2025-09-01 15:24:49,291 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 15:24:49,301 - INFO - Standardized text fields
+2025-09-01 15:24:49,304 - INFO - Removed 365 duplicate listings
+2025-09-01 15:24:49,308 - INFO - Converted price to numeric format
+2025-09-01 15:24:49,321 - INFO - Standardized property types
+2025-09-01 15:24:49,345 - INFO - Parsed location information
+2025-09-01 15:24:49,376 - INFO - Handled missing values for bedrooms
+2025-09-01 15:24:49,464 - INFO - Handled missing values for bathrooms
+2025-09-01 15:24:49,476 - INFO - Handled missing values for toilets
+2025-09-01 15:24:49,479 - INFO - Validated ranges for price_numeric
+2025-09-01 15:24:49,490 - INFO - Validated ranges for bedrooms
+2025-09-01 15:24:49,493 - INFO - Validated ranges for bathrooms
+2025-09-01 15:24:49,496 - INFO - Validated ranges for toilets
+2025-09-01 15:24:49,517 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_152443_h_cleaned.csv
+2025-09-01 15:24:49,522 - INFO - Data cleaning completed successfully
+2025-09-01 15:24:49,522 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_152443_h_cleaned.csv
+2025-09-01 15:24:49,536 - INFO - Preparing features for prediction...
+2025-09-01 15:24:49,562 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 15:24:49,569 - INFO - Transforming 3 categorical features...
+2025-09-01 15:24:49,578 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 15:24:49,628 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 15:24:49,628 - INFO - Generating predictions...
+2025-09-01 15:24:49,635 - INFO - Predictions generated.
+2025-09-01 15:26:11,619 - INFO - Starting cleaning for file: uploads\20250901_152443_h_cleaned.csv
+2025-09-01 15:26:11,620 - INFO - Starting data cleaning pipeline
+2025-09-01 15:26:11,627 - INFO - Standardized column names
+2025-09-01 15:26:11,642 - INFO - Loaded 1741 records from uploads\20250901_152443_h_cleaned.csv
+2025-09-01 15:26:11,642 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 15:26:11,650 - INFO - Standardized text fields
+2025-09-01 15:26:11,654 - INFO - Removed 365 duplicate listings
+2025-09-01 15:26:11,657 - INFO - Converted price to numeric format
+2025-09-01 15:26:11,662 - INFO - Standardized property types
+2025-09-01 15:26:11,680 - INFO - Parsed location information
+2025-09-01 15:26:11,695 - INFO - Handled missing values for bedrooms
+2025-09-01 15:26:11,710 - INFO - Handled missing values for bathrooms
+2025-09-01 15:26:11,722 - INFO - Handled missing values for toilets
+2025-09-01 15:26:11,724 - INFO - Validated ranges for price_numeric
+2025-09-01 15:26:11,726 - INFO - Validated ranges for bedrooms
+2025-09-01 15:26:11,728 - INFO - Validated ranges for bathrooms
+2025-09-01 15:26:11,737 - INFO - Validated ranges for toilets
+2025-09-01 15:26:11,754 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_152443_h_cleaned.csv
+2025-09-01 15:26:11,755 - INFO - Data cleaning completed successfully
+2025-09-01 15:26:11,755 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_152443_h_cleaned.csv
+2025-09-01 15:26:11,769 - INFO - Preparing features for prediction...
+2025-09-01 15:26:11,793 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 15:26:11,795 - INFO - Transforming 3 categorical features...
+2025-09-01 15:26:11,812 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 15:26:11,842 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 15:26:11,843 - INFO - Generating predictions...
+2025-09-01 15:26:11,852 - INFO - Predictions generated.
+2025-09-01 15:26:44,264 - INFO - Starting cleaning for file: uploads\20250901_152634_h_cleaned.csv
+2025-09-01 15:26:44,265 - INFO - Starting data cleaning pipeline
+2025-09-01 15:26:44,272 - INFO - Standardized column names
+2025-09-01 15:26:44,286 - INFO - Loaded 1741 records from uploads\20250901_152634_h_cleaned.csv
+2025-09-01 15:26:44,287 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 15:26:44,290 - INFO - Standardized text fields
+2025-09-01 15:26:44,299 - INFO - Removed 365 duplicate listings
+2025-09-01 15:26:44,303 - INFO - Converted price to numeric format
+2025-09-01 15:26:44,306 - INFO - Standardized property types
+2025-09-01 15:26:44,319 - INFO - Parsed location information
+2025-09-01 15:26:44,332 - INFO - Handled missing values for bedrooms
+2025-09-01 15:26:44,337 - INFO - Handled missing values for bathrooms
+2025-09-01 15:26:44,348 - INFO - Handled missing values for toilets
+2025-09-01 15:26:44,350 - INFO - Validated ranges for price_numeric
+2025-09-01 15:26:44,352 - INFO - Validated ranges for bedrooms
+2025-09-01 15:26:44,354 - INFO - Validated ranges for bathrooms
+2025-09-01 15:26:44,357 - INFO - Validated ranges for toilets
+2025-09-01 15:26:44,379 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_152634_h_cleaned.csv
+2025-09-01 15:26:44,379 - INFO - Data cleaning completed successfully
+2025-09-01 15:26:44,380 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_152634_h_cleaned.csv
+2025-09-01 15:26:44,386 - INFO - Preparing features for prediction...
+2025-09-01 15:26:44,405 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 15:26:44,412 - INFO - Transforming 3 categorical features...
+2025-09-01 15:26:44,419 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 15:26:44,440 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 15:26:44,441 - INFO - Generating predictions...
+2025-09-01 15:26:44,448 - INFO - Predictions generated.
+2025-09-01 15:32:45,339 - INFO - Starting cleaning for file: uploads\20250901_153241_h_cleaned.csv
+2025-09-01 15:32:45,342 - INFO - Starting data cleaning pipeline
+2025-09-01 15:32:45,357 - INFO - Standardized column names
+2025-09-01 15:32:45,377 - INFO - Loaded 1741 records from uploads\20250901_153241_h_cleaned.csv
+2025-09-01 15:32:45,377 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 15:32:45,388 - INFO - Standardized text fields
+2025-09-01 15:32:45,397 - INFO - Removed 365 duplicate listings
+2025-09-01 15:32:45,406 - INFO - Converted price to numeric format
+2025-09-01 15:32:45,410 - INFO - Standardized property types
+2025-09-01 15:32:45,420 - INFO - Parsed location information
+2025-09-01 15:32:45,447 - INFO - Handled missing values for bedrooms
+2025-09-01 15:32:45,454 - INFO - Handled missing values for bathrooms
+2025-09-01 15:32:45,461 - INFO - Handled missing values for toilets
+2025-09-01 15:32:45,464 - INFO - Validated ranges for price_numeric
+2025-09-01 15:32:45,467 - INFO - Validated ranges for bedrooms
+2025-09-01 15:32:45,468 - INFO - Validated ranges for bathrooms
+2025-09-01 15:32:45,474 - INFO - Validated ranges for toilets
+2025-09-01 15:32:45,491 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_153241_h_cleaned.csv
+2025-09-01 15:32:45,492 - INFO - Data cleaning completed successfully
+2025-09-01 15:32:45,492 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_153241_h_cleaned.csv
+2025-09-01 15:32:45,499 - INFO - Preparing features for prediction...
+2025-09-01 15:32:45,515 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 15:32:45,518 - INFO - Transforming 3 categorical features...
+2025-09-01 15:32:45,530 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 15:32:45,564 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 15:32:45,565 - INFO - Generating predictions...
+2025-09-01 15:32:45,578 - INFO - Predictions generated.
+2025-09-01 15:39:03,905 - INFO - Starting cleaning for file: uploads\20250901_153856_h_cleaned.csv
+2025-09-01 15:39:03,906 - INFO - Starting data cleaning pipeline
+2025-09-01 15:39:03,913 - INFO - Standardized column names
+2025-09-01 15:39:03,923 - INFO - Loaded 1741 records from uploads\20250901_153856_h_cleaned.csv
+2025-09-01 15:39:03,923 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 15:39:03,926 - INFO - Standardized text fields
+2025-09-01 15:39:03,930 - INFO - Removed 365 duplicate listings
+2025-09-01 15:39:03,934 - INFO - Converted price to numeric format
+2025-09-01 15:39:03,937 - INFO - Standardized property types
+2025-09-01 15:39:03,951 - INFO - Parsed location information
+2025-09-01 15:39:03,958 - INFO - Handled missing values for bedrooms
+2025-09-01 15:39:03,966 - INFO - Handled missing values for bathrooms
+2025-09-01 15:39:03,972 - INFO - Handled missing values for toilets
+2025-09-01 15:39:03,974 - INFO - Validated ranges for price_numeric
+2025-09-01 15:39:03,975 - INFO - Validated ranges for bedrooms
+2025-09-01 15:39:03,977 - INFO - Validated ranges for bathrooms
+2025-09-01 15:39:03,980 - INFO - Validated ranges for toilets
+2025-09-01 15:39:03,992 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_153856_h_cleaned.csv
+2025-09-01 15:39:03,992 - INFO - Data cleaning completed successfully
+2025-09-01 15:39:03,993 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_153856_h_cleaned.csv
+2025-09-01 15:39:04,001 - INFO - Preparing features for prediction...
+2025-09-01 15:39:04,018 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 15:39:04,019 - INFO - Transforming 3 categorical features...
+2025-09-01 15:39:04,025 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 15:39:04,046 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 15:39:04,047 - INFO - Generating predictions...
+2025-09-01 15:39:04,052 - INFO - Predictions generated.
+2025-09-01 16:09:27,726 - INFO - Starting cleaning for file: uploads\20250901_160749_h_cleaned.csv
+2025-09-01 16:09:27,782 - INFO - Starting data cleaning pipeline
+2025-09-01 16:09:27,800 - INFO - Standardized column names
+2025-09-01 16:09:27,837 - INFO - Loaded 1741 records from uploads\20250901_160749_h_cleaned.csv
+2025-09-01 16:09:27,837 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 16:09:27,865 - INFO - Standardized text fields
+2025-09-01 16:09:27,885 - INFO - Removed 365 duplicate listings
+2025-09-01 16:09:27,902 - INFO - Converted price to numeric format
+2025-09-01 16:09:27,911 - INFO - Standardized property types
+2025-09-01 16:09:27,934 - INFO - Parsed location information
+2025-09-01 16:09:27,990 - INFO - Handled missing values for bedrooms
+2025-09-01 16:09:27,999 - INFO - Handled missing values for bathrooms
+2025-09-01 16:09:28,008 - INFO - Handled missing values for toilets
+2025-09-01 16:09:28,011 - INFO - Validated ranges for price_numeric
+2025-09-01 16:09:28,015 - INFO - Validated ranges for bedrooms
+2025-09-01 16:09:28,017 - INFO - Validated ranges for bathrooms
+2025-09-01 16:09:28,018 - INFO - Validated ranges for toilets
+2025-09-01 16:09:28,044 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_160749_h_cleaned.csv
+2025-09-01 16:09:28,044 - INFO - Data cleaning completed successfully
+2025-09-01 16:09:28,044 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_160749_h_cleaned.csv
+2025-09-01 16:09:28,055 - INFO - Preparing features for prediction...
+2025-09-01 16:09:28,080 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 16:09:28,084 - INFO - Transforming 3 categorical features...
+2025-09-01 16:09:28,107 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 16:09:28,164 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 16:09:28,164 - INFO - Generating predictions...
+2025-09-01 16:09:28,194 - INFO - Predictions generated.
+2025-09-01 16:09:44,866 - INFO - Starting cleaning for file: uploads\20250901_160938_h_cleaned.csv
+2025-09-01 16:09:44,867 - INFO - Starting data cleaning pipeline
+2025-09-01 16:09:44,877 - INFO - Standardized column names
+2025-09-01 16:09:44,887 - INFO - Loaded 1741 records from uploads\20250901_160938_h_cleaned.csv
+2025-09-01 16:09:44,888 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 16:09:44,892 - INFO - Standardized text fields
+2025-09-01 16:09:44,894 - INFO - Removed 365 duplicate listings
+2025-09-01 16:09:44,898 - INFO - Converted price to numeric format
+2025-09-01 16:09:44,901 - INFO - Standardized property types
+2025-09-01 16:09:44,917 - INFO - Parsed location information
+2025-09-01 16:09:44,927 - INFO - Handled missing values for bedrooms
+2025-09-01 16:09:44,934 - INFO - Handled missing values for bathrooms
+2025-09-01 16:09:44,944 - INFO - Handled missing values for toilets
+2025-09-01 16:09:44,946 - INFO - Validated ranges for price_numeric
+2025-09-01 16:09:44,948 - INFO - Validated ranges for bedrooms
+2025-09-01 16:09:44,953 - INFO - Validated ranges for bathrooms
+2025-09-01 16:09:44,956 - INFO - Validated ranges for toilets
+2025-09-01 16:09:44,972 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_160938_h_cleaned.csv
+2025-09-01 16:09:44,972 - INFO - Data cleaning completed successfully
+2025-09-01 16:09:44,973 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_160938_h_cleaned.csv
+2025-09-01 16:09:44,980 - INFO - Preparing features for prediction...
+2025-09-01 16:09:44,998 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 16:09:45,000 - INFO - Transforming 3 categorical features...
+2025-09-01 16:09:45,009 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 16:09:45,027 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 16:09:45,027 - INFO - Generating predictions...
+2025-09-01 16:09:45,029 - INFO - Predictions generated.
+2025-09-01 16:14:45,364 - INFO - Starting cleaning for file: uploads\20250901_161440_a_cleaned.csv
+2025-09-01 16:14:45,366 - INFO - Starting data cleaning pipeline
+2025-09-01 16:14:45,372 - INFO - Standardized column names
+2025-09-01 16:14:45,379 - INFO - Loaded 454 records from uploads\20250901_161440_a_cleaned.csv
+2025-09-01 16:14:45,379 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-01 16:14:45,385 - INFO - Standardized text fields
+2025-09-01 16:14:45,393 - INFO - Removed 18 duplicate listings
+2025-09-01 16:14:45,397 - INFO - Converted price to numeric format
+2025-09-01 16:14:45,400 - INFO - Standardized property types
+2025-09-01 16:14:45,406 - INFO - Parsed location information
+2025-09-01 16:14:45,425 - INFO - Handled missing values for bedrooms
+2025-09-01 16:14:45,429 - INFO - Handled missing values for bathrooms
+2025-09-01 16:14:45,434 - INFO - Handled missing values for toilets
+2025-09-01 16:14:45,437 - INFO - Validated ranges for price_numeric
+2025-09-01 16:14:45,440 - INFO - Validated ranges for bedrooms
+2025-09-01 16:14:45,442 - INFO - Validated ranges for bathrooms
+2025-09-01 16:14:45,444 - INFO - Validated ranges for toilets
+2025-09-01 16:14:45,456 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_161440_a_cleaned.csv
+2025-09-01 16:14:45,456 - INFO - Data cleaning completed successfully
+2025-09-01 16:14:45,456 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_161440_a_cleaned.csv
+2025-09-01 16:14:45,463 - INFO - Preparing features for prediction...
+2025-09-01 16:14:45,485 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 16:14:45,487 - INFO - Transforming 3 categorical features...
+2025-09-01 16:14:45,499 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 16:14:45,517 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-01 16:14:45,517 - INFO - Generating predictions...
+2025-09-01 16:14:45,528 - INFO - Predictions generated.
+2025-09-01 16:17:03,619 - INFO - Starting cleaning for file: uploads\20250901_161658_h_cleaned.csv
+2025-09-01 16:17:03,620 - INFO - Starting data cleaning pipeline
+2025-09-01 16:17:03,628 - INFO - Standardized column names
+2025-09-01 16:17:03,646 - INFO - Loaded 1741 records from uploads\20250901_161658_h_cleaned.csv
+2025-09-01 16:17:03,647 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 16:17:03,654 - INFO - Standardized text fields
+2025-09-01 16:17:03,658 - INFO - Removed 365 duplicate listings
+2025-09-01 16:17:03,662 - INFO - Converted price to numeric format
+2025-09-01 16:17:03,673 - INFO - Standardized property types
+2025-09-01 16:17:03,693 - INFO - Parsed location information
+2025-09-01 16:17:03,706 - INFO - Handled missing values for bedrooms
+2025-09-01 16:17:03,716 - INFO - Handled missing values for bathrooms
+2025-09-01 16:17:03,724 - INFO - Handled missing values for toilets
+2025-09-01 16:17:03,726 - INFO - Validated ranges for price_numeric
+2025-09-01 16:17:03,729 - INFO - Validated ranges for bedrooms
+2025-09-01 16:17:03,730 - INFO - Validated ranges for bathrooms
+2025-09-01 16:17:03,734 - INFO - Validated ranges for toilets
+2025-09-01 16:17:03,750 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_161658_h_cleaned.csv
+2025-09-01 16:17:03,751 - INFO - Data cleaning completed successfully
+2025-09-01 16:17:03,752 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_161658_h_cleaned.csv
+2025-09-01 16:17:03,759 - INFO - Preparing features for prediction...
+2025-09-01 16:17:03,784 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 16:17:03,788 - INFO - Transforming 3 categorical features...
+2025-09-01 16:17:03,809 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 16:17:03,837 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 16:17:03,838 - INFO - Generating predictions...
+2025-09-01 16:17:03,842 - INFO - Predictions generated.
+2025-09-01 16:21:11,537 - INFO - Starting cleaning for file: uploads\20250901_162108_h_cleaned.csv
+2025-09-01 16:21:11,537 - INFO - Starting data cleaning pipeline
+2025-09-01 16:21:11,547 - INFO - Standardized column names
+2025-09-01 16:21:11,558 - INFO - Loaded 1741 records from uploads\20250901_162108_h_cleaned.csv
+2025-09-01 16:21:11,558 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 16:21:11,561 - INFO - Standardized text fields
+2025-09-01 16:21:11,563 - INFO - Removed 365 duplicate listings
+2025-09-01 16:21:11,568 - INFO - Converted price to numeric format
+2025-09-01 16:21:11,575 - INFO - Standardized property types
+2025-09-01 16:21:11,591 - INFO - Parsed location information
+2025-09-01 16:21:11,599 - INFO - Handled missing values for bedrooms
+2025-09-01 16:21:11,607 - INFO - Handled missing values for bathrooms
+2025-09-01 16:21:11,614 - INFO - Handled missing values for toilets
+2025-09-01 16:21:11,615 - INFO - Validated ranges for price_numeric
+2025-09-01 16:21:11,617 - INFO - Validated ranges for bedrooms
+2025-09-01 16:21:11,621 - INFO - Validated ranges for bathrooms
+2025-09-01 16:21:11,624 - INFO - Validated ranges for toilets
+2025-09-01 16:21:11,639 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_162108_h_cleaned.csv
+2025-09-01 16:21:11,640 - INFO - Data cleaning completed successfully
+2025-09-01 16:21:11,640 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_162108_h_cleaned.csv
+2025-09-01 16:21:11,646 - INFO - Preparing features for prediction...
+2025-09-01 16:21:11,663 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 16:21:11,665 - INFO - Transforming 3 categorical features...
+2025-09-01 16:21:11,674 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 16:21:11,693 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 16:21:11,693 - INFO - Generating predictions...
+2025-09-01 16:21:11,696 - INFO - Predictions generated.
+2025-09-01 16:48:22,027 - INFO - Starting cleaning for file: uploads\20250901_163859_h_cleaned.csv
+2025-09-01 16:48:22,043 - INFO - Starting data cleaning pipeline
+2025-09-01 16:48:22,151 - INFO - Standardized column names
+2025-09-01 16:48:22,179 - INFO - Loaded 1741 records from uploads\20250901_163859_h_cleaned.csv
+2025-09-01 16:48:22,179 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 16:48:22,220 - INFO - Standardized text fields
+2025-09-01 16:48:22,251 - INFO - Removed 365 duplicate listings
+2025-09-01 16:48:22,271 - INFO - Converted price to numeric format
+2025-09-01 16:48:22,281 - INFO - Standardized property types
+2025-09-01 16:48:22,325 - INFO - Parsed location information
+2025-09-01 16:48:22,387 - INFO - Handled missing values for bedrooms
+2025-09-01 16:48:22,397 - INFO - Handled missing values for bathrooms
+2025-09-01 16:48:22,411 - INFO - Handled missing values for toilets
+2025-09-01 16:48:22,418 - INFO - Validated ranges for price_numeric
+2025-09-01 16:48:22,425 - INFO - Validated ranges for bedrooms
+2025-09-01 16:48:22,427 - INFO - Validated ranges for bathrooms
+2025-09-01 16:48:22,429 - INFO - Validated ranges for toilets
+2025-09-01 16:48:22,464 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_163859_h_cleaned.csv
+2025-09-01 16:48:22,464 - INFO - Data cleaning completed successfully
+2025-09-01 16:48:22,465 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_163859_h_cleaned.csv
+2025-09-01 16:48:22,477 - INFO - Preparing features for prediction...
+2025-09-01 16:48:22,510 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 16:48:22,513 - INFO - Transforming 3 categorical features...
+2025-09-01 16:48:22,547 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 16:48:22,636 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 16:48:22,636 - INFO - Generating predictions...
+2025-09-01 16:48:22,680 - INFO - Predictions generated.
+2025-09-01 17:13:46,047 - INFO - Starting cleaning for file: uploads\20250901_170850_h_cleaned.csv
+2025-09-01 17:13:46,067 - INFO - Starting data cleaning pipeline
+2025-09-01 17:13:46,084 - INFO - Standardized column names
+2025-09-01 17:13:46,120 - INFO - Loaded 1741 records from uploads\20250901_170850_h_cleaned.csv
+2025-09-01 17:13:46,121 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-01 17:13:46,178 - INFO - Standardized text fields
+2025-09-01 17:13:46,216 - INFO - Removed 365 duplicate listings
+2025-09-01 17:13:46,242 - INFO - Converted price to numeric format
+2025-09-01 17:13:46,254 - INFO - Standardized property types
+2025-09-01 17:13:46,297 - INFO - Parsed location information
+2025-09-01 17:13:46,414 - INFO - Handled missing values for bedrooms
+2025-09-01 17:13:46,428 - INFO - Handled missing values for bathrooms
+2025-09-01 17:13:46,440 - INFO - Handled missing values for toilets
+2025-09-01 17:13:46,453 - INFO - Validated ranges for price_numeric
+2025-09-01 17:13:46,464 - INFO - Validated ranges for bedrooms
+2025-09-01 17:13:46,466 - INFO - Validated ranges for bathrooms
+2025-09-01 17:13:46,471 - INFO - Validated ranges for toilets
+2025-09-01 17:13:46,518 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_170850_h_cleaned.csv
+2025-09-01 17:13:46,520 - INFO - Data cleaning completed successfully
+2025-09-01 17:13:46,520 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_170850_h_cleaned.csv
+2025-09-01 17:13:46,531 - INFO - Preparing features for prediction...
+2025-09-01 17:13:46,565 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 17:13:46,573 - INFO - Transforming 3 categorical features...
+2025-09-01 17:13:46,631 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 17:13:46,783 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-01 17:13:46,783 - INFO - Generating predictions...
+2025-09-01 17:13:46,833 - INFO - Predictions generated.
+2025-09-01 17:33:33,099 - INFO - Starting cleaning for file: uploads\20250901_173326_a_cleaned.csv
+2025-09-01 17:33:33,112 - INFO - Starting data cleaning pipeline
+2025-09-01 17:33:33,123 - INFO - Standardized column names
+2025-09-01 17:33:33,136 - INFO - Loaded 454 records from uploads\20250901_173326_a_cleaned.csv
+2025-09-01 17:33:33,137 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-01 17:33:33,162 - INFO - Standardized text fields
+2025-09-01 17:33:33,191 - INFO - Removed 18 duplicate listings
+2025-09-01 17:33:33,206 - INFO - Converted price to numeric format
+2025-09-01 17:33:33,212 - INFO - Standardized property types
+2025-09-01 17:33:33,230 - INFO - Parsed location information
+2025-09-01 17:33:33,367 - INFO - Handled missing values for bedrooms
+2025-09-01 17:33:33,391 - INFO - Handled missing values for bathrooms
+2025-09-01 17:33:33,423 - INFO - Handled missing values for toilets
+2025-09-01 17:33:33,432 - INFO - Validated ranges for price_numeric
+2025-09-01 17:33:33,452 - INFO - Validated ranges for bedrooms
+2025-09-01 17:33:33,458 - INFO - Validated ranges for bathrooms
+2025-09-01 17:33:33,460 - INFO - Validated ranges for toilets
+2025-09-01 17:33:33,496 - INFO - Saved cleaned data to cleaned_data\cleaned_20250901_173326_a_cleaned.csv
+2025-09-01 17:33:33,497 - INFO - Data cleaning completed successfully
+2025-09-01 17:33:33,497 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250901_173326_a_cleaned.csv
+2025-09-01 17:33:33,508 - INFO - Preparing features for prediction...
+2025-09-01 17:33:33,564 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-01 17:33:33,567 - INFO - Transforming 3 categorical features...
+2025-09-01 17:33:33,604 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-01 17:33:33,697 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-01 17:33:33,698 - INFO - Generating predictions...
+2025-09-01 17:33:33,765 - INFO - Predictions generated.
+2025-09-01 22:20:18,438 - INFO - Starting cleaning for file: uploads\
+2025-09-01 22:20:18,439 - INFO - Starting data cleaning pipeline
+2025-09-01 22:20:18,441 - ERROR - Error loading data: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:18,441 - ERROR - Error in cleaning pipeline: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:18,443 - ERROR - Prediction error: [Errno 2] No such file or directory: 'uploads\\'
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 68, in load_data
+    self.df = pd.read_csv(
+              ^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads\\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 81, in predict
+    cleaned_file_path = cleaner.run_cleaning_pipeline()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 332, in run_cleaning_pipeline
+    self.load_data()
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 85, in load_data
+    self.df = pd.read_csv(
+              ^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:24,446 - INFO - Starting cleaning for file: uploads\
+2025-09-01 22:20:24,447 - INFO - Starting data cleaning pipeline
+2025-09-01 22:20:24,448 - ERROR - Error loading data: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:24,449 - ERROR - Error in cleaning pipeline: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:24,449 - ERROR - Prediction error: [Errno 2] No such file or directory: 'uploads\\'
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 68, in load_data
+    self.df = pd.read_csv(
+              ^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads\\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 81, in predict
+    cleaned_file_path = cleaner.run_cleaning_pipeline()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 332, in run_cleaning_pipeline
+    self.load_data()
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 85, in load_data
+    self.df = pd.read_csv(
+              ^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:25,226 - INFO - Starting cleaning for file: uploads\
+2025-09-01 22:20:25,227 - INFO - Starting data cleaning pipeline
+2025-09-01 22:20:25,227 - ERROR - Error loading data: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:25,228 - ERROR - Error in cleaning pipeline: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-01 22:20:25,228 - ERROR - Prediction error: [Errno 2] No such file or directory: 'uploads\\'
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 68, in load_data
+    self.df = pd.read_csv(
+              ^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads\\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\Galaxy\backend\prediction_service\predict.py", line 81, in predict
+    cleaned_file_path = cleaner.run_cleaning_pipeline()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 332, in run_cleaning_pipeline
+    self.load_data()
+  File "C:\Users\USER\Documents\Galaxy\clean_real_estate_data.py", line 85, in load_data
+    self.df = pd.read_csv(
+              ^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'uploads\\'
+2025-09-03 23:44:20,309 - INFO - Starting cleaning for file: uploads\20250903_234353_a_cleaned.csv
+2025-09-03 23:44:20,310 - INFO - Starting data cleaning pipeline
+2025-09-03 23:44:20,344 - INFO - Standardized column names
+2025-09-03 23:44:20,347 - INFO - Loaded 454 records from uploads\20250903_234353_a_cleaned.csv
+2025-09-03 23:44:20,348 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-03 23:44:20,361 - INFO - Standardized text fields
+2025-09-03 23:44:20,377 - INFO - Removed 18 duplicate listings
+2025-09-03 23:44:20,383 - INFO - Converted price to numeric format
+2025-09-03 23:44:20,386 - INFO - Standardized property types
+2025-09-03 23:44:20,399 - INFO - Parsed location information
+2025-09-03 23:44:20,460 - INFO - Handled missing values for bedrooms
+2025-09-03 23:44:20,468 - INFO - Handled missing values for bathrooms
+2025-09-03 23:44:20,478 - INFO - Handled missing values for toilets
+2025-09-03 23:44:20,479 - INFO - Validated ranges for price_numeric
+2025-09-03 23:44:20,482 - INFO - Validated ranges for bedrooms
+2025-09-03 23:44:20,486 - INFO - Validated ranges for bathrooms
+2025-09-03 23:44:20,489 - INFO - Validated ranges for toilets
+2025-09-03 23:44:20,514 - INFO - Saved cleaned data to cleaned_data\cleaned_20250903_234353_a_cleaned.csv
+2025-09-03 23:44:20,515 - INFO - Data cleaning completed successfully
+2025-09-03 23:44:20,515 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250903_234353_a_cleaned.csv
+2025-09-03 23:44:20,522 - INFO - Preparing features for prediction...
+2025-09-03 23:44:20,541 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-03 23:44:20,544 - INFO - Transforming 3 categorical features...
+2025-09-03 23:44:20,560 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-03 23:44:20,577 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-03 23:44:20,578 - INFO - Generating predictions...
+2025-09-03 23:44:20,584 - INFO - Predictions generated.
+2025-09-03 23:49:40,073 - INFO - Starting cleaning for file: uploads\20250903_234614_h_cleaned.csv
+2025-09-03 23:49:40,075 - INFO - Starting data cleaning pipeline
+2025-09-03 23:49:40,081 - INFO - Standardized column names
+2025-09-03 23:49:40,096 - INFO - Loaded 1741 records from uploads\20250903_234614_h_cleaned.csv
+2025-09-03 23:49:40,097 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-03 23:49:40,101 - INFO - Standardized text fields
+2025-09-03 23:49:40,104 - INFO - Removed 365 duplicate listings
+2025-09-03 23:49:40,107 - INFO - Converted price to numeric format
+2025-09-03 23:49:40,115 - INFO - Standardized property types
+2025-09-03 23:49:40,123 - INFO - Parsed location information
+2025-09-03 23:49:40,132 - INFO - Handled missing values for bedrooms
+2025-09-03 23:49:40,137 - INFO - Handled missing values for bathrooms
+2025-09-03 23:49:40,145 - INFO - Handled missing values for toilets
+2025-09-03 23:49:40,147 - INFO - Validated ranges for price_numeric
+2025-09-03 23:49:40,148 - INFO - Validated ranges for bedrooms
+2025-09-03 23:49:40,149 - INFO - Validated ranges for bathrooms
+2025-09-03 23:49:40,151 - INFO - Validated ranges for toilets
+2025-09-03 23:49:40,165 - INFO - Saved cleaned data to cleaned_data\cleaned_20250903_234614_h_cleaned.csv
+2025-09-03 23:49:40,166 - INFO - Data cleaning completed successfully
+2025-09-03 23:49:40,166 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250903_234614_h_cleaned.csv
+2025-09-03 23:49:40,171 - INFO - Preparing features for prediction...
+2025-09-03 23:49:40,187 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-03 23:49:40,188 - INFO - Transforming 3 categorical features...
+2025-09-03 23:49:40,197 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-03 23:49:40,215 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-03 23:49:40,215 - INFO - Generating predictions...
+2025-09-03 23:49:40,219 - INFO - Predictions generated.
+2025-09-03 23:51:59,079 - INFO - Starting cleaning for file: uploads\20250903_234614_h_cleaned.csv
+2025-09-03 23:51:59,080 - INFO - Starting data cleaning pipeline
+2025-09-03 23:51:59,087 - INFO - Standardized column names
+2025-09-03 23:51:59,103 - INFO - Loaded 1741 records from uploads\20250903_234614_h_cleaned.csv
+2025-09-03 23:51:59,103 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type, predicted_property_type
+2025-09-03 23:51:59,110 - INFO - Standardized text fields
+2025-09-03 23:51:59,112 - INFO - Removed 365 duplicate listings
+2025-09-03 23:51:59,117 - INFO - Converted price to numeric format
+2025-09-03 23:51:59,121 - INFO - Standardized property types
+2025-09-03 23:51:59,129 - INFO - Parsed location information
+2025-09-03 23:51:59,138 - INFO - Handled missing values for bedrooms
+2025-09-03 23:51:59,143 - INFO - Handled missing values for bathrooms
+2025-09-03 23:51:59,150 - INFO - Handled missing values for toilets
+2025-09-03 23:51:59,152 - INFO - Validated ranges for price_numeric
+2025-09-03 23:51:59,154 - INFO - Validated ranges for bedrooms
+2025-09-03 23:51:59,156 - INFO - Validated ranges for bathrooms
+2025-09-03 23:51:59,157 - INFO - Validated ranges for toilets
+2025-09-03 23:51:59,169 - INFO - Saved cleaned data to cleaned_data\cleaned_20250903_234614_h_cleaned.csv
+2025-09-03 23:51:59,169 - INFO - Data cleaning completed successfully
+2025-09-03 23:51:59,170 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250903_234614_h_cleaned.csv
+2025-09-03 23:51:59,175 - INFO - Preparing features for prediction...
+2025-09-03 23:51:59,190 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-03 23:51:59,193 - INFO - Transforming 3 categorical features...
+2025-09-03 23:51:59,201 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-03 23:51:59,217 - INFO - Feature preparation complete. Shape: (1376, 514)
+2025-09-03 23:51:59,218 - INFO - Generating predictions...
+2025-09-03 23:51:59,223 - INFO - Predictions generated.
+2025-09-03 23:54:21,256 - INFO - Starting cleaning for file: uploads\20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:54:21,257 - INFO - Starting data cleaning pipeline
+2025-09-03 23:54:21,259 - INFO - Standardized column names
+2025-09-03 23:54:21,261 - INFO - Loaded 21 records from uploads\20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:54:21,262 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-03 23:54:21,266 - INFO - Standardized text fields
+2025-09-03 23:54:21,268 - INFO - Removed 0 duplicate listings
+2025-09-03 23:54:21,271 - INFO - Converted price to numeric format
+2025-09-03 23:54:21,274 - INFO - Standardized property types
+2025-09-03 23:54:21,279 - INFO - Parsed location information
+2025-09-03 23:54:21,283 - INFO - Handled missing values for bedrooms
+2025-09-03 23:54:21,288 - INFO - Handled missing values for bathrooms
+2025-09-03 23:54:21,296 - INFO - Handled missing values for toilets
+2025-09-03 23:54:21,300 - INFO - Validated ranges for price_numeric
+2025-09-03 23:54:21,304 - INFO - Validated ranges for bedrooms
+2025-09-03 23:54:21,309 - INFO - Validated ranges for bathrooms
+2025-09-03 23:54:21,311 - INFO - Validated ranges for toilets
+2025-09-03 23:54:21,316 - INFO - Saved cleaned data to cleaned_data\cleaned_20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:54:21,317 - INFO - Data cleaning completed successfully
+2025-09-03 23:54:21,318 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:54:21,324 - INFO - Preparing features for prediction...
+2025-09-03 23:54:21,342 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-03 23:54:21,345 - INFO - Transforming 3 categorical features...
+2025-09-03 23:54:21,359 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-03 23:54:21,371 - INFO - Feature preparation complete. Shape: (21, 514)
+2025-09-03 23:54:21,373 - INFO - Generating predictions...
+2025-09-03 23:54:21,375 - INFO - Predictions generated.
+2025-09-03 23:55:32,134 - INFO - Starting cleaning for file: uploads\20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:55:32,135 - INFO - Starting data cleaning pipeline
+2025-09-03 23:55:32,138 - INFO - Standardized column names
+2025-09-03 23:55:32,140 - INFO - Loaded 21 records from uploads\20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:55:32,140 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-03 23:55:32,144 - INFO - Standardized text fields
+2025-09-03 23:55:32,147 - INFO - Removed 0 duplicate listings
+2025-09-03 23:55:32,149 - INFO - Converted price to numeric format
+2025-09-03 23:55:32,151 - INFO - Standardized property types
+2025-09-03 23:55:32,156 - INFO - Parsed location information
+2025-09-03 23:55:32,168 - INFO - Handled missing values for bedrooms
+2025-09-03 23:55:32,171 - INFO - Handled missing values for bathrooms
+2025-09-03 23:55:32,180 - INFO - Handled missing values for toilets
+2025-09-03 23:55:32,181 - INFO - Validated ranges for price_numeric
+2025-09-03 23:55:32,183 - INFO - Validated ranges for bedrooms
+2025-09-03 23:55:32,185 - INFO - Validated ranges for bathrooms
+2025-09-03 23:55:32,186 - INFO - Validated ranges for toilets
+2025-09-03 23:55:32,195 - INFO - Saved cleaned data to cleaned_data\cleaned_20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:55:32,196 - INFO - Data cleaning completed successfully
+2025-09-03 23:55:32,196 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250903_235410_c7907d54-8b84-46bc-ae3c-02c8dedb382c_uploads-1755744117712_a0a1b6_Thunderbit_c7907d_20250821_024157_final.csv
+2025-09-03 23:55:32,200 - INFO - Preparing features for prediction...
+2025-09-03 23:55:32,216 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-03 23:55:32,218 - INFO - Transforming 3 categorical features...
+2025-09-03 23:55:32,226 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-03 23:55:32,230 - INFO - Feature preparation complete. Shape: (21, 514)
+2025-09-03 23:55:32,230 - INFO - Generating predictions...
+2025-09-03 23:55:32,231 - INFO - Predictions generated.
+2025-09-03 23:56:57,671 - ERROR - Error processing file: Error tokenizing data. C error: Expected 7 fields in line 3, saw 19
+
+2025-09-03 23:57:41,004 - INFO - Starting cleaning for file: uploads\20250903_235731_results (1).csv
+2025-09-03 23:57:41,005 - INFO - Starting data cleaning pipeline
+2025-09-03 23:57:41,009 - INFO - Standardized column names
+2025-09-03 23:57:41,011 - INFO - Loaded 87 records from uploads\20250903_235731_results (1).csv
+2025-09-03 23:57:41,011 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-03 23:57:41,018 - INFO - Standardized text fields
+2025-09-03 23:57:41,023 - INFO - Removed 23 duplicate listings
+2025-09-03 23:57:41,025 - INFO - Converted price to numeric format
+2025-09-03 23:57:41,029 - INFO - Standardized property types
+2025-09-03 23:57:41,041 - INFO - Parsed location information
+2025-09-03 23:57:41,045 - INFO - Handled missing values for bedrooms
+2025-09-03 23:57:41,053 - INFO - Handled missing values for bathrooms
+2025-09-03 23:57:41,058 - INFO - Handled missing values for toilets
+2025-09-03 23:57:41,060 - INFO - Validated ranges for price_numeric
+2025-09-03 23:57:41,062 - INFO - Validated ranges for bedrooms
+2025-09-03 23:57:41,063 - INFO - Validated ranges for bathrooms
+2025-09-03 23:57:41,071 - INFO - Validated ranges for toilets
+2025-09-03 23:57:41,089 - INFO - Saved cleaned data to cleaned_data\cleaned_20250903_235731_results (1).csv
+2025-09-03 23:57:41,090 - INFO - Data cleaning completed successfully
+2025-09-03 23:57:41,090 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250903_235731_results (1).csv
+2025-09-03 23:57:41,094 - INFO - Preparing features for prediction...
+2025-09-03 23:57:41,116 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-03 23:57:41,122 - INFO - Transforming 3 categorical features...
+2025-09-03 23:57:41,135 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-03 23:57:41,143 - INFO - Feature preparation complete. Shape: (64, 514)
+2025-09-03 23:57:41,143 - INFO - Generating predictions...
+2025-09-03 23:57:41,144 - INFO - Predictions generated.
+2025-09-04 00:54:57,619 - INFO - Starting cleaning for file: uploads\20250904_005453_results (2).csv
+2025-09-04 00:54:57,626 - INFO - Starting data cleaning pipeline
+2025-09-04 00:54:57,639 - INFO - Standardized column names
+2025-09-04 00:54:57,649 - INFO - Loaded 63 records from uploads\20250904_005453_results (2).csv
+2025-09-04 00:54:57,651 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-04 00:54:57,670 - INFO - Standardized text fields
+2025-09-04 00:54:57,687 - INFO - Removed 13 duplicate listings
+2025-09-04 00:54:57,694 - INFO - Converted price to numeric format
+2025-09-04 00:54:57,696 - INFO - Standardized property types
+2025-09-04 00:54:57,702 - INFO - Parsed location information
+2025-09-04 00:54:57,731 - INFO - Handled missing values for bedrooms
+2025-09-04 00:54:57,738 - INFO - Handled missing values for bathrooms
+2025-09-04 00:54:57,742 - INFO - Handled missing values for toilets
+2025-09-04 00:54:57,744 - INFO - Validated ranges for price_numeric
+2025-09-04 00:54:57,747 - INFO - Validated ranges for bedrooms
+2025-09-04 00:54:57,750 - INFO - Validated ranges for bathrooms
+2025-09-04 00:54:57,753 - INFO - Validated ranges for toilets
+2025-09-04 00:54:57,766 - INFO - Saved cleaned data to cleaned_data\cleaned_20250904_005453_results (2).csv
+2025-09-04 00:54:57,766 - INFO - Data cleaning completed successfully
+2025-09-04 00:54:57,766 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250904_005453_results (2).csv
+2025-09-04 00:54:57,770 - INFO - Preparing features for prediction...
+2025-09-04 00:54:57,789 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-04 00:54:57,792 - INFO - Transforming 3 categorical features...
+2025-09-04 00:54:57,805 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-04 00:54:57,829 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-04 00:54:57,864 - INFO - Generating predictions...
+2025-09-04 00:54:57,918 - INFO - Predictions generated.
+2025-09-04 01:15:13,005 - INFO - Starting cleaning for file: uploads\20250904_011510_results (2).csv
+2025-09-04 01:15:13,011 - INFO - Starting data cleaning pipeline
+2025-09-04 01:15:13,024 - INFO - Standardized column names
+2025-09-04 01:15:13,033 - INFO - Loaded 63 records from uploads\20250904_011510_results (2).csv
+2025-09-04 01:15:13,034 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-04 01:15:13,048 - INFO - Standardized text fields
+2025-09-04 01:15:13,061 - INFO - Removed 13 duplicate listings
+2025-09-04 01:15:13,066 - INFO - Converted price to numeric format
+2025-09-04 01:15:13,067 - INFO - Standardized property types
+2025-09-04 01:15:13,081 - INFO - Parsed location information
+2025-09-04 01:15:13,111 - INFO - Handled missing values for bedrooms
+2025-09-04 01:15:13,117 - INFO - Handled missing values for bathrooms
+2025-09-04 01:15:13,121 - INFO - Handled missing values for toilets
+2025-09-04 01:15:13,127 - INFO - Validated ranges for price_numeric
+2025-09-04 01:15:13,132 - INFO - Validated ranges for bedrooms
+2025-09-04 01:15:13,134 - INFO - Validated ranges for bathrooms
+2025-09-04 01:15:13,136 - INFO - Validated ranges for toilets
+2025-09-04 01:15:13,156 - INFO - Saved cleaned data to cleaned_data\cleaned_20250904_011510_results (2).csv
+2025-09-04 01:15:13,156 - INFO - Data cleaning completed successfully
+2025-09-04 01:15:13,161 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250904_011510_results (2).csv
+2025-09-04 01:15:13,167 - INFO - Preparing features for prediction...
+2025-09-04 01:15:13,194 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-04 01:15:13,197 - INFO - Transforming 3 categorical features...
+2025-09-04 01:15:13,229 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-04 01:15:13,285 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-04 01:15:13,286 - INFO - Generating predictions...
+2025-09-04 01:15:13,328 - INFO - Predictions generated.
+2025-09-04 13:39:01,758 - INFO - Starting cleaning for file: uploads\20250904_133825_results (2).csv
+2025-09-04 13:39:01,759 - INFO - Starting data cleaning pipeline
+2025-09-04 13:39:01,764 - INFO - Standardized column names
+2025-09-04 13:39:01,766 - INFO - Loaded 63 records from uploads\20250904_133825_results (2).csv
+2025-09-04 13:39:01,767 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-04 13:39:01,774 - INFO - Standardized text fields
+2025-09-04 13:39:01,785 - INFO - Removed 13 duplicate listings
+2025-09-04 13:39:01,792 - INFO - Converted price to numeric format
+2025-09-04 13:39:01,795 - INFO - Standardized property types
+2025-09-04 13:39:01,803 - INFO - Parsed location information
+2025-09-04 13:39:01,818 - INFO - Handled missing values for bedrooms
+2025-09-04 13:39:01,824 - INFO - Handled missing values for bathrooms
+2025-09-04 13:39:01,828 - INFO - Handled missing values for toilets
+2025-09-04 13:39:01,831 - INFO - Validated ranges for price_numeric
+2025-09-04 13:39:01,836 - INFO - Validated ranges for bedrooms
+2025-09-04 13:39:01,839 - INFO - Validated ranges for bathrooms
+2025-09-04 13:39:01,841 - INFO - Validated ranges for toilets
+2025-09-04 13:39:01,851 - INFO - Saved cleaned data to cleaned_data\cleaned_20250904_133825_results (2).csv
+2025-09-04 13:39:01,851 - INFO - Data cleaning completed successfully
+2025-09-04 13:39:01,852 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250904_133825_results (2).csv
+2025-09-04 13:39:01,855 - INFO - Preparing features for prediction...
+2025-09-04 13:39:01,875 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-04 13:39:01,878 - INFO - Transforming 3 categorical features...
+2025-09-04 13:39:01,890 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-04 13:39:01,904 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-04 13:39:01,904 - INFO - Generating predictions...
+2025-09-04 13:39:01,911 - INFO - Predictions generated.
+2025-09-04 14:49:04,456 - INFO - Starting cleaning for file: uploads\20250904_144902_results (2).csv
+2025-09-04 14:49:04,457 - INFO - Starting data cleaning pipeline
+2025-09-04 14:49:04,460 - INFO - Standardized column names
+2025-09-04 14:49:04,462 - INFO - Loaded 63 records from uploads\20250904_144902_results (2).csv
+2025-09-04 14:49:04,462 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-04 14:49:04,471 - INFO - Standardized text fields
+2025-09-04 14:49:04,480 - INFO - Removed 13 duplicate listings
+2025-09-04 14:49:04,485 - INFO - Converted price to numeric format
+2025-09-04 14:49:04,488 - INFO - Standardized property types
+2025-09-04 14:49:04,493 - INFO - Parsed location information
+2025-09-04 14:49:04,516 - INFO - Handled missing values for bedrooms
+2025-09-04 14:49:04,519 - INFO - Handled missing values for bathrooms
+2025-09-04 14:49:04,521 - INFO - Handled missing values for toilets
+2025-09-04 14:49:04,524 - INFO - Validated ranges for price_numeric
+2025-09-04 14:49:04,529 - INFO - Validated ranges for bedrooms
+2025-09-04 14:49:04,530 - INFO - Validated ranges for bathrooms
+2025-09-04 14:49:04,532 - INFO - Validated ranges for toilets
+2025-09-04 14:49:04,539 - INFO - Saved cleaned data to cleaned_data\cleaned_20250904_144902_results (2).csv
+2025-09-04 14:49:04,539 - INFO - Data cleaning completed successfully
+2025-09-04 14:49:04,540 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250904_144902_results (2).csv
+2025-09-04 14:49:04,545 - INFO - Preparing features for prediction...
+2025-09-04 14:49:04,554 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-04 14:49:04,556 - INFO - Transforming 3 categorical features...
+2025-09-04 14:49:04,568 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-04 14:49:04,584 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-04 14:49:04,586 - INFO - Generating predictions...
+2025-09-04 14:49:04,593 - INFO - Predictions generated.
+2025-09-06 21:10:08,053 - INFO - Starting cleaning for file: uploads\20250906_211005_results (2).csv
+2025-09-06 21:10:08,054 - INFO - Starting data cleaning pipeline
+2025-09-06 21:10:08,056 - INFO - Standardized column names
+2025-09-06 21:10:08,059 - INFO - Loaded 63 records from uploads\20250906_211005_results (2).csv
+2025-09-06 21:10:08,060 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-06 21:10:08,066 - INFO - Standardized text fields
+2025-09-06 21:10:08,074 - INFO - Removed 13 duplicate listings
+2025-09-06 21:10:08,079 - INFO - Converted price to numeric format
+2025-09-06 21:10:08,081 - INFO - Standardized property types
+2025-09-06 21:10:08,085 - INFO - Parsed location information
+2025-09-06 21:10:08,102 - INFO - Handled missing values for bedrooms
+2025-09-06 21:10:08,107 - INFO - Handled missing values for bathrooms
+2025-09-06 21:10:08,111 - INFO - Handled missing values for toilets
+2025-09-06 21:10:08,113 - INFO - Validated ranges for price_numeric
+2025-09-06 21:10:08,115 - INFO - Validated ranges for bedrooms
+2025-09-06 21:10:08,116 - INFO - Validated ranges for bathrooms
+2025-09-06 21:10:08,118 - INFO - Validated ranges for toilets
+2025-09-06 21:10:08,128 - INFO - Saved cleaned data to cleaned_data\cleaned_20250906_211005_results (2).csv
+2025-09-06 21:10:08,129 - INFO - Data cleaning completed successfully
+2025-09-06 21:10:08,129 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250906_211005_results (2).csv
+2025-09-06 21:10:08,131 - INFO - Preparing features for prediction...
+2025-09-06 21:10:08,143 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-06 21:10:08,145 - INFO - Transforming 3 categorical features...
+2025-09-06 21:10:08,157 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-06 21:10:08,169 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-06 21:10:08,169 - INFO - Generating predictions...
+2025-09-06 21:10:08,178 - INFO - Predictions generated.
+2025-09-17 22:35:26,141 - INFO - Will watch for changes in these directories: ['C:\\Users\\USER\\Documents\\Galaxy\\backend\\prediction_service']
+2025-09-17 22:35:26,146 - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-09-17 22:35:26,147 - INFO - Started reloader process [16632] using statreload
+2025-09-17 22:35:33,333 - INFO - Started server process [4696]
+2025-09-17 22:35:33,334 - INFO - Waiting for application startup.
+2025-09-17 22:35:33,338 - INFO - Application startup complete.
+2025-09-17 22:37:53,089 - WARNING - StatReload detected file change in 'app.py'. Reloading...
+2025-09-17 22:37:54,290 - WARNING - StatReload detected file change in 'app.py'. Reloading...
+2025-09-17 22:37:55,830 - WARNING - StatReload detected file change in 'app.py'. Reloading...
+2025-09-17 22:37:58,167 - WARNING - StatReload detected file change in 'app.py'. Reloading...
+2025-09-17 22:38:05,100 - INFO - Started server process [2360]
+2025-09-17 22:38:05,102 - INFO - Waiting for application startup.
+2025-09-17 22:38:05,103 - INFO - Application startup complete.
+2025-09-17 22:38:36,483 - WARNING - StatReload detected file change in 'app.py'. Reloading...
+2025-09-17 22:38:41,584 - INFO - Started server process [10164]
+2025-09-17 22:38:41,586 - INFO - Waiting for application startup.
+2025-09-17 22:38:41,587 - INFO - Application startup complete.
+2025-09-17 22:38:54,892 - INFO - Shutting down
+2025-09-17 22:38:55,036 - INFO - Stopping reloader process [16632]
+2025-09-17 22:39:09,476 - INFO - Will watch for changes in these directories: ['C:\\Users\\USER\\Documents\\Galaxy\\backend\\prediction_service']
+2025-09-17 22:39:09,484 - INFO - Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
+2025-09-17 22:39:09,486 - INFO - Started reloader process [17384] using statreload
+2025-09-17 22:39:15,459 - INFO - Started server process [11564]
+2025-09-17 22:39:15,461 - INFO - Waiting for application startup.
+2025-09-17 22:39:15,463 - INFO - Application startup complete.
+2025-09-17 23:12:20,473 - INFO - Starting cleaning for file: uploads\20250917_231151_a_cleaned.csv
+2025-09-17 23:12:20,495 - INFO - Starting data cleaning pipeline
+2025-09-17 23:12:20,518 - INFO - Standardized column names
+2025-09-17 23:12:20,548 - INFO - Loaded 454 records from uploads\20250917_231151_a_cleaned.csv
+2025-09-17 23:12:20,549 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-09-17 23:12:20,589 - INFO - Standardized text fields
+2025-09-17 23:12:20,622 - INFO - Removed 18 duplicate listings
+2025-09-17 23:12:20,644 - INFO - Converted price to numeric format
+2025-09-17 23:12:20,651 - INFO - Standardized property types
+2025-09-17 23:12:20,677 - INFO - Parsed location information
+2025-09-17 23:12:20,756 - INFO - Handled missing values for bedrooms
+2025-09-17 23:12:20,770 - INFO - Handled missing values for bathrooms
+2025-09-17 23:12:20,780 - INFO - Handled missing values for toilets
+2025-09-17 23:12:20,818 - INFO - Validated ranges for price_numeric
+2025-09-17 23:12:20,839 - INFO - Validated ranges for bedrooms
+2025-09-17 23:12:20,843 - INFO - Validated ranges for bathrooms
+2025-09-17 23:12:20,848 - INFO - Validated ranges for toilets
+2025-09-17 23:12:20,919 - INFO - Saved cleaned data to cleaned_data\cleaned_20250917_231151_a_cleaned.csv
+2025-09-17 23:12:20,920 - INFO - Data cleaning completed successfully
+2025-09-17 23:12:20,921 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250917_231151_a_cleaned.csv
+2025-09-17 23:12:20,934 - INFO - Preparing features for prediction...
+2025-09-17 23:12:20,985 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-17 23:12:20,991 - INFO - Transforming 3 categorical features...
+2025-09-17 23:12:21,071 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-17 23:12:21,215 - INFO - Feature preparation complete. Shape: (436, 514)
+2025-09-17 23:12:21,216 - INFO - Generating predictions...
+2025-09-17 23:12:21,291 - INFO - Predictions generated.
+2025-09-17 23:20:31,614 - ERROR - Error processing file: 400: Missing required columns: Title, Price, Toilets, Property Type. Please ensure your file includes all required columns: Title, Price, Location, Bedrooms, Bathrooms, Toilets, Property Type
+2025-09-17 23:27:42,513 - INFO - Shutting down
+2025-09-17 23:27:42,758 - INFO - Stopping reloader process [17384]
+2025-09-17 23:29:50,933 - INFO - Will watch for changes in these directories: ['C:\\Users\\USER\\Documents\\Galaxy\\backend\\prediction_service']
+2025-09-17 23:29:50,936 - INFO - Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
+2025-09-17 23:29:50,937 - INFO - Started reloader process [14672] using statreload
+2025-09-17 23:29:54,902 - INFO - Started server process [19644]
+2025-09-17 23:29:54,903 - INFO - Waiting for application startup.
+2025-09-17 23:29:54,905 - INFO - Application startup complete.
+2025-09-17 23:40:05,402 - INFO - Starting cleaning for file: uploads\20250917_233957_results (2).csv
+2025-09-17 23:40:05,417 - INFO - Starting data cleaning pipeline
+2025-09-17 23:40:05,425 - INFO - Standardized column names
+2025-09-17 23:40:05,461 - INFO - Loaded 63 records from uploads\20250917_233957_results (2).csv
+2025-09-17 23:40:05,463 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-17 23:40:05,482 - INFO - Standardized text fields
+2025-09-17 23:40:05,499 - INFO - Removed 13 duplicate listings
+2025-09-17 23:40:05,517 - INFO - Converted price to numeric format
+2025-09-17 23:40:05,522 - INFO - Standardized property types
+2025-09-17 23:40:05,537 - INFO - Parsed location information
+2025-09-17 23:40:05,587 - INFO - Handled missing values for bedrooms
+2025-09-17 23:40:05,596 - INFO - Handled missing values for bathrooms
+2025-09-17 23:40:05,603 - INFO - Handled missing values for toilets
+2025-09-17 23:40:05,613 - INFO - Validated ranges for price_numeric
+2025-09-17 23:40:05,639 - INFO - Validated ranges for bedrooms
+2025-09-17 23:40:05,645 - INFO - Validated ranges for bathrooms
+2025-09-17 23:40:05,650 - INFO - Validated ranges for toilets
+2025-09-17 23:40:05,688 - INFO - Saved cleaned data to cleaned_data\cleaned_20250917_233957_results (2).csv
+2025-09-17 23:40:05,689 - INFO - Data cleaning completed successfully
+2025-09-17 23:40:05,690 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250917_233957_results (2).csv
+2025-09-17 23:40:05,695 - INFO - Preparing features for prediction...
+2025-09-17 23:40:05,722 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-17 23:40:05,724 - INFO - Transforming 3 categorical features...
+2025-09-17 23:40:05,749 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-17 23:40:05,804 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-17 23:40:05,805 - INFO - Generating predictions...
+2025-09-17 23:40:05,833 - INFO - Predictions generated.
+2025-09-17 23:40:16,178 - INFO - Starting cleaning for file: uploads\20250917_233957_results (2).csv
+2025-09-17 23:40:16,179 - INFO - Starting data cleaning pipeline
+2025-09-17 23:40:16,185 - INFO - Standardized column names
+2025-09-17 23:40:16,187 - INFO - Loaded 63 records from uploads\20250917_233957_results (2).csv
+2025-09-17 23:40:16,188 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-17 23:40:16,195 - INFO - Standardized text fields
+2025-09-17 23:40:16,203 - INFO - Removed 13 duplicate listings
+2025-09-17 23:40:16,205 - INFO - Converted price to numeric format
+2025-09-17 23:40:16,210 - INFO - Standardized property types
+2025-09-17 23:40:16,217 - INFO - Parsed location information
+2025-09-17 23:40:16,224 - INFO - Handled missing values for bedrooms
+2025-09-17 23:40:16,240 - INFO - Handled missing values for bathrooms
+2025-09-17 23:40:16,254 - INFO - Handled missing values for toilets
+2025-09-17 23:40:16,261 - INFO - Validated ranges for price_numeric
+2025-09-17 23:40:16,268 - INFO - Validated ranges for bedrooms
+2025-09-17 23:40:16,272 - INFO - Validated ranges for bathrooms
+2025-09-17 23:40:16,282 - INFO - Validated ranges for toilets
+2025-09-17 23:40:16,290 - INFO - Saved cleaned data to cleaned_data\cleaned_20250917_233957_results (2).csv
+2025-09-17 23:40:16,295 - INFO - Data cleaning completed successfully
+2025-09-17 23:40:16,296 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250917_233957_results (2).csv
+2025-09-17 23:40:16,303 - INFO - Preparing features for prediction...
+2025-09-17 23:40:16,335 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-17 23:40:16,338 - INFO - Transforming 3 categorical features...
+2025-09-17 23:40:16,357 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-17 23:40:16,370 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-17 23:40:16,371 - INFO - Generating predictions...
+2025-09-17 23:40:16,377 - INFO - Predictions generated.
+2025-09-17 23:41:29,334 - INFO - Starting cleaning for file: uploads\20250917_233957_results (2).csv
+2025-09-17 23:41:29,334 - INFO - Starting data cleaning pipeline
+2025-09-17 23:41:29,340 - INFO - Standardized column names
+2025-09-17 23:41:29,342 - INFO - Loaded 63 records from uploads\20250917_233957_results (2).csv
+2025-09-17 23:41:29,343 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-17 23:41:29,347 - INFO - Standardized text fields
+2025-09-17 23:41:29,351 - INFO - Removed 13 duplicate listings
+2025-09-17 23:41:29,355 - INFO - Converted price to numeric format
+2025-09-17 23:41:29,362 - INFO - Standardized property types
+2025-09-17 23:41:29,370 - INFO - Parsed location information
+2025-09-17 23:41:29,379 - INFO - Handled missing values for bedrooms
+2025-09-17 23:41:29,387 - INFO - Handled missing values for bathrooms
+2025-09-17 23:41:29,392 - INFO - Handled missing values for toilets
+2025-09-17 23:41:29,397 - INFO - Validated ranges for price_numeric
+2025-09-17 23:41:29,403 - INFO - Validated ranges for bedrooms
+2025-09-17 23:41:29,406 - INFO - Validated ranges for bathrooms
+2025-09-17 23:41:29,409 - INFO - Validated ranges for toilets
+2025-09-17 23:41:29,418 - INFO - Saved cleaned data to cleaned_data\cleaned_20250917_233957_results (2).csv
+2025-09-17 23:41:29,419 - INFO - Data cleaning completed successfully
+2025-09-17 23:41:29,420 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250917_233957_results (2).csv
+2025-09-17 23:41:29,424 - INFO - Preparing features for prediction...
+2025-09-17 23:41:29,451 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-17 23:41:29,454 - INFO - Transforming 3 categorical features...
+2025-09-17 23:41:29,469 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-17 23:41:29,475 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-17 23:41:29,477 - INFO - Generating predictions...
+2025-09-17 23:41:29,479 - INFO - Predictions generated.
+2025-09-17 23:43:29,894 - INFO - Starting cleaning for file: uploads\20250917_234320_results (2).csv
+2025-09-17 23:43:29,895 - INFO - Starting data cleaning pipeline
+2025-09-17 23:43:29,898 - INFO - Standardized column names
+2025-09-17 23:43:29,899 - INFO - Loaded 63 records from uploads\20250917_234320_results (2).csv
+2025-09-17 23:43:29,900 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-17 23:43:29,902 - INFO - Standardized text fields
+2025-09-17 23:43:29,906 - INFO - Removed 13 duplicate listings
+2025-09-17 23:43:29,911 - INFO - Converted price to numeric format
+2025-09-17 23:43:29,913 - INFO - Standardized property types
+2025-09-17 23:43:29,916 - INFO - Parsed location information
+2025-09-17 23:43:29,930 - INFO - Handled missing values for bedrooms
+2025-09-17 23:43:29,934 - INFO - Handled missing values for bathrooms
+2025-09-17 23:43:29,942 - INFO - Handled missing values for toilets
+2025-09-17 23:43:29,945 - INFO - Validated ranges for price_numeric
+2025-09-17 23:43:29,947 - INFO - Validated ranges for bedrooms
+2025-09-17 23:43:29,950 - INFO - Validated ranges for bathrooms
+2025-09-17 23:43:29,953 - INFO - Validated ranges for toilets
+2025-09-17 23:43:29,963 - INFO - Saved cleaned data to cleaned_data\cleaned_20250917_234320_results (2).csv
+2025-09-17 23:43:29,963 - INFO - Data cleaning completed successfully
+2025-09-17 23:43:29,963 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250917_234320_results (2).csv
+2025-09-17 23:43:29,977 - INFO - Preparing features for prediction...
+2025-09-17 23:43:29,994 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-17 23:43:29,996 - INFO - Transforming 3 categorical features...
+2025-09-17 23:43:30,003 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-17 23:43:30,013 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-17 23:43:30,014 - INFO - Generating predictions...
+2025-09-17 23:43:30,015 - INFO - Predictions generated.
+2025-09-17 23:43:32,146 - INFO - Starting cleaning for file: uploads\20250917_234320_results (2).csv
+2025-09-17 23:43:32,146 - INFO - Starting data cleaning pipeline
+2025-09-17 23:43:32,149 - INFO - Standardized column names
+2025-09-17 23:43:32,150 - INFO - Loaded 63 records from uploads\20250917_234320_results (2).csv
+2025-09-17 23:43:32,151 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-17 23:43:32,155 - INFO - Standardized text fields
+2025-09-17 23:43:32,158 - INFO - Removed 13 duplicate listings
+2025-09-17 23:43:32,163 - INFO - Converted price to numeric format
+2025-09-17 23:43:32,165 - INFO - Standardized property types
+2025-09-17 23:43:32,168 - INFO - Parsed location information
+2025-09-17 23:43:32,176 - INFO - Handled missing values for bedrooms
+2025-09-17 23:43:32,180 - INFO - Handled missing values for bathrooms
+2025-09-17 23:43:32,183 - INFO - Handled missing values for toilets
+2025-09-17 23:43:32,184 - INFO - Validated ranges for price_numeric
+2025-09-17 23:43:32,186 - INFO - Validated ranges for bedrooms
+2025-09-17 23:43:32,192 - INFO - Validated ranges for bathrooms
+2025-09-17 23:43:32,194 - INFO - Validated ranges for toilets
+2025-09-17 23:43:32,198 - INFO - Saved cleaned data to cleaned_data\cleaned_20250917_234320_results (2).csv
+2025-09-17 23:43:32,199 - INFO - Data cleaning completed successfully
+2025-09-17 23:43:32,199 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250917_234320_results (2).csv
+2025-09-17 23:43:32,201 - INFO - Preparing features for prediction...
+2025-09-17 23:43:32,289 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-17 23:43:32,292 - INFO - Transforming 3 categorical features...
+2025-09-17 23:43:32,297 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-17 23:43:32,301 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-17 23:43:32,301 - INFO - Generating predictions...
+2025-09-17 23:43:32,302 - INFO - Predictions generated.
+2025-09-17 23:44:16,607 - INFO - Starting cleaning for file: uploads\20250917_234413_results (2).csv
+2025-09-17 23:44:16,608 - INFO - Starting data cleaning pipeline
+2025-09-17 23:44:16,612 - INFO - Standardized column names
+2025-09-17 23:44:16,614 - INFO - Loaded 63 records from uploads\20250917_234413_results (2).csv
+2025-09-17 23:44:16,614 - INFO - Columns detected: title, location, price, bathrooms, bedrooms, toilets, property_type
+2025-09-17 23:44:16,617 - INFO - Standardized text fields
+2025-09-17 23:44:16,621 - INFO - Removed 13 duplicate listings
+2025-09-17 23:44:16,627 - INFO - Converted price to numeric format
+2025-09-17 23:44:16,634 - INFO - Standardized property types
+2025-09-17 23:44:16,641 - INFO - Parsed location information
+2025-09-17 23:44:16,644 - INFO - Handled missing values for bedrooms
+2025-09-17 23:44:16,652 - INFO - Handled missing values for bathrooms
+2025-09-17 23:44:16,655 - INFO - Handled missing values for toilets
+2025-09-17 23:44:16,657 - INFO - Validated ranges for price_numeric
+2025-09-17 23:44:16,659 - INFO - Validated ranges for bedrooms
+2025-09-17 23:44:16,663 - INFO - Validated ranges for bathrooms
+2025-09-17 23:44:16,667 - INFO - Validated ranges for toilets
+2025-09-17 23:44:16,673 - INFO - Saved cleaned data to cleaned_data\cleaned_20250917_234413_results (2).csv
+2025-09-17 23:44:16,673 - INFO - Data cleaning completed successfully
+2025-09-17 23:44:16,673 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data\cleaned_20250917_234413_results (2).csv
+2025-09-17 23:44:16,677 - INFO - Preparing features for prediction...
+2025-09-17 23:44:16,693 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-09-17 23:44:16,695 - INFO - Transforming 3 categorical features...
+2025-09-17 23:44:16,703 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-09-17 23:44:16,706 - INFO - Feature preparation complete. Shape: (50, 514)
+2025-09-17 23:44:16,707 - INFO - Generating predictions...
+2025-09-17 23:44:16,707 - INFO - Predictions generated.
+2025-10-18 23:57:10,283 - ERROR - Error loading model: Model not found at /home/henshawmikel/Nera-ai/models/model_v1/model.joblib
+2025-10-18 23:59:31,020 - ERROR - Error processing file: 400: Missing required columns: Price, Property Type. Please ensure your file includes all required columns: Title, Price, Location, Bedrooms, Bathrooms, Toilets, Property Type
+2025-10-18 23:59:42,611 - ERROR - Error processing file: 400: Missing required columns: Price, Property Type. Please ensure your file includes all required columns: Title, Price, Location, Bedrooms, Bathrooms, Toilets, Property Type
+2025-10-19 00:00:57,849 - INFO - Starting cleaning for file: uploads/
+2025-10-19 00:00:57,849 - INFO - Starting data cleaning pipeline
+2025-10-19 00:00:57,851 - ERROR - Error loading data: [Errno 21] Is a directory: 'uploads/'
+2025-10-19 00:00:57,852 - ERROR - Error in cleaning pipeline: [Errno 21] Is a directory: 'uploads/'
+2025-10-19 00:00:57,852 - ERROR - Prediction error: [Errno 21] Is a directory: 'uploads/'
+Traceback (most recent call last):
+  File "/home/henshawmikel/Nera-ai/clean_real_estate_data.py", line 68, in load_data
+    self.df = pd.read_csv(
+              ~~~~~~~~~~~^
+        self.input_file,
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        dtype=str
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+IsADirectoryError: [Errno 21] Is a directory: 'uploads/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/predict.py", line 81, in predict
+    cleaned_file_path = cleaner.run_cleaning_pipeline()
+  File "/home/henshawmikel/Nera-ai/clean_real_estate_data.py", line 332, in run_cleaning_pipeline
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "/home/henshawmikel/Nera-ai/clean_real_estate_data.py", line 85, in load_data
+    self.df = pd.read_csv(
+              ~~~~~~~~~~~^
+        self.input_file,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        dtype=str
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/henshawmikel/Nera-ai/backend/prediction_service/venv/lib/python3.13/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+IsADirectoryError: [Errno 21] Is a directory: 'uploads/'
+2025-10-19 00:05:50,255 - ERROR - Error processing file: 400: Missing required columns: Property Type. Please ensure your file includes all required columns: Title, Price, Location, Bedrooms, Bathrooms, Toilets, Property Type
+2025-10-19 00:06:18,665 - ERROR - Error processing file: 400: Missing required columns: Property Type. Please ensure your file includes all required columns: Title, Price, Location, Bedrooms, Bathrooms, Toilets, Property Type
+2025-10-19 00:11:58,683 - INFO - Starting cleaning for file: uploads/20251019_001009_ready_for_prediction.csv
+2025-10-19 00:11:58,684 - INFO - Starting data cleaning pipeline
+2025-10-19 00:11:58,687 - INFO - Standardized column names
+2025-10-19 00:11:58,690 - INFO - Loaded 400 records from uploads/20251019_001009_ready_for_prediction.csv
+2025-10-19 00:11:58,690 - INFO - Columns detected: title, price, location, bedrooms, bathrooms, toilets, property_type
+2025-10-19 00:11:58,694 - INFO - Standardized text fields
+2025-10-19 00:11:58,702 - INFO - Removed 2 duplicate listings
+2025-10-19 00:11:58,712 - INFO - Converted price to numeric format
+2025-10-19 00:11:58,718 - INFO - Standardized property types
+2025-10-19 00:11:58,728 - INFO - Parsed location information
+2025-10-19 00:11:58,735 - INFO - Handled missing values for bedrooms
+2025-10-19 00:11:58,742 - INFO - Handled missing values for bathrooms
+2025-10-19 00:11:58,748 - INFO - Handled missing values for toilets
+2025-10-19 00:11:58,753 - INFO - Validated ranges for price_numeric
+2025-10-19 00:11:58,765 - INFO - Validated ranges for bedrooms
+2025-10-19 00:11:58,769 - INFO - Validated ranges for bathrooms
+2025-10-19 00:11:58,772 - INFO - Validated ranges for toilets
+2025-10-19 00:11:58,782 - INFO - Saved cleaned data to cleaned_data/cleaned_20251019_001009_ready_for_prediction.csv
+2025-10-19 00:11:58,782 - INFO - Data cleaning completed successfully
+2025-10-19 00:11:58,783 - INFO - Data cleaned successfully. Cleaned file at: cleaned_data/cleaned_20251019_001009_ready_for_prediction.csv
+2025-10-19 00:11:58,786 - INFO - Preparing features for prediction...
+2025-10-19 00:11:58,801 - INFO - Applying fitted TargetEncoder and TfidfVectorizer...
+2025-10-19 00:11:58,803 - INFO - Transforming 3 categorical features...
+2025-10-19 00:11:58,829 - INFO - Transforming 'title' feature with TfidfVectorizer...
+2025-10-19 00:11:58,866 - INFO - Feature preparation complete. Shape: (398, 514)
+2025-10-19 00:11:58,866 - INFO - Generating predictions...
+2025-10-19 00:11:58,873 - INFO - Predictions generated.

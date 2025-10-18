@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: nera-prediction-service
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:10000 app:app
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: true
+      - key: PORT
+        value: 10000
+      - key: ENVIRONMENT
+        value: production
+    healthCheckPath: /health
+    autoDeploy: true

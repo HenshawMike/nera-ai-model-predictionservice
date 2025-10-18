@@ -1,0 +1,14 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+gunicorn>=20.1.0
+python-multipart>=0.0.5
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+joblib>=1.0.0
+python-dateutil>=2.8.2
+pydantic>=1.8.0
+python-dotenv>=0.19.0
+openpyxl>=3.0.7  # For Excel file support
+xlrd>=2.0.1  # For older Excel file support
+lightgbm>=3.3.0

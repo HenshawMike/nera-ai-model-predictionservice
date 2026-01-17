@@ -1,4 +1,4 @@
-# NeraDwell AI Prediction Service
+# Nera AI Prediction Service
 
 A FastAPI-based prediction service for property data analysis and predictions.
 
